@@ -1,0 +1,44 @@
+S01 - Manhattan
+S02 - Turtle's Base
+SND_STRM_BGM_03_DRAINAGE - Sewer stage
+S04 - Train
+S05 - Cruise Ship
+S06 - Jungle
+S07 - Castle
+SND_STRM_BGM_08-EVIL - Enemy Base stage
+S09 - Western Town
+S10 - Dojo/Training
+S11 - Main Menu
+S12 - Continue?
+S13 - Results screen jingle
+S14 - Game Over
+S15 - Prize
+S16 - Bonus 1
+S17 - Bonus 2
+S18 - Bonus 3
+S19 - Bonus 4
+S20 - Bonus 5
+S21 - Bonus 6
+S22 - Bonus Content/Trophy
+S23 - Wi-Fi Menu
+S24 - Wi-Fi Training
+S25 - Trophy Wall
+S26 - Proceed/Bustin Blocks
+S27 - Climb!
+S28 - Train
+S29 - Stage Theme 2
+S30 - Dojo
+S31 - Proceed/Bustin Blocks
+S32 - Manhattan/Pizza Party/Stay Alive
+S33 - Stage Theme 1
+S34 - Climb!
+S35 - Train stage
+S36 - Shooting Gallery
+S37 - Battle Results
+S38 - Space Lab stage
+S39 - Garbage Dump stage
+S40 - Warehouse stage
+S41 - Enemy Base Stage (Stream 1)
+S42 - Sudden Death
+S43 - Success
+S44 - Bonus Results (failure)
