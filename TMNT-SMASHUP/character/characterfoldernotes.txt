@@ -1,0 +1,29 @@
+DEFAULT COSTUMES
+C00 - Leonardo
+C01 - Raphael
+C02 - Michaelangelo
+C03 - Donatello
+C04 - Shredder
+C05 - Splinter
+C06 - April O'Neal
+C07 - Casey Jones
+C08 - Karai
+C09 - Utrominator
+C10 - Foot Ninja
+C11 - Nightwatcher
+C12 - Fugitoid
+C13 - Raving Rabbid
+C14 - Splinter Cell Rabbid
+C15 - Ninja Rabbid
+
+SPECIAL COSTUMES
+C20 - Leonardo
+C21 - Raphael
+C22 - Michaelangelo
+C23 - Donatello
+C24 - Cyber Shredder
+C25 - Splinter
+C26 - April O'Neal
+C27 - Casey Jones
+C28 - Karai
+C30 - Cyber Foot Ninja
