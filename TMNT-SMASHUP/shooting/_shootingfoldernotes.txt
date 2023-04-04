@@ -1,0 +1,12 @@
+FIGURE00 - Leonardo Trophy
+FIGURE01 - Raphael Trophy
+FIGURE02 - Michaelangelo Trophy 
+FIGURE03 - Donatello Trophy
+FIGURE04 - Shredder Trophy
+FIGURE05 - Splinter Trophy
+FIGURE06 - April O'Neal Trophy
+FIGURE07 - Casey Jones Trophy
+FIGURE08 - Karai Trophy
+FIGURE09 - Utrominator Trophy
+FIGURE10 - Foot Solider Trophy
+FIGURE11 - Nightwatcher Trophy
