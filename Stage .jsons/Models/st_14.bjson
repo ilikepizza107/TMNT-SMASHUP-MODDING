@@ -1,0 +1,2 @@
+
+{"sprinter/st_14":{"resource":"st_14_whiteroom","collision":["st_14"],"isMoveCollision":[false],"anmScn":"st14_witeroom","models":[{"model":"st14_asiba"},{"model":"st14_whiteroom","anmClr":"st14_whiteroom"},{"model":"SHD_st14_0"},{"model":"SHD_st14_1"}]}}

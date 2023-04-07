@@ -1,0 +1,2 @@
+
+{"sprinter/st_22":{"resource":"st_23_sakero","collision":["st_23_sakero","st_23_sakero_fb01"],"isMoveCollision":[false,false],"anmScn":"st07_c","models":[{"model":"st07_c_cloud","anmTexSrt":"st07_c_cloud","drawLayer":"DRAW_LAYER_STAGE_FAR"},{"model":"st07_c","anmTexSrt":"st07_c","anmClr":"st07_c"},{"model":"st23_sakero_syouji"}]}}

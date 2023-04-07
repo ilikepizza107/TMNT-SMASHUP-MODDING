@@ -1,0 +1,2 @@
+
+{"sprinter/st_15":{"resource":"st_04_desert","models":[{"model":"st04_sky"},{"model":"st04_desert_bg"},{"model":"st04_desert_sun","anmChr":"st04_desert_sun"},{"model":"st04_desert_cloud","anmTexSrt":"st04_desert_cloud","anmClr":"st04_desert_cloud"},{"model":"st04_desert_long"},{"model":"st04_desert_long"},{"model":"st04_desert_middle"},{"model":"st04_desert_middle"},{"model":"st04_desert_short"},{"model":"st04_desert_short"}]}}

@@ -1,0 +1,2 @@
+
+{"sprinter/st_18":{"resource":"st_04_valley","models":[{"model":"st04_sky_valley"},{"model":"st04_sun","anmChr":"st04_sun","anmTexSrt":"st04_sun"},{"model":"st04_valley_cloud","anmTexSrt":"st04_valley_cloud","anmClr":"st04_valley_cloud"},{"model":"st04_cliff_bg","anmTexSrt":"st04_cliff"},{"model":"st04_cliff","anmTexSrt":"st04_cliff"},{"model":"st04_cliff","anmTexSrt":"st04_cliff"},{"model":"st04_valley_short"},{"model":"st04_valley_short"},{"model":"st04_pelican","anmChr":"st04_pelican"}]}}

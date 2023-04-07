@@ -1,0 +1,2 @@
+
+{"sprinter/st_20":{"resource":"st_20_susume","collision":["st_20_susume","st_20_fb01","st_20_fb02","st_20_fb03","st_20_fb04"],"isMoveCollision":[true,true,true,true,true],"anmScn":"st20_susume","models":[{"model":"st20_susume_bg","anmTexSrt":"st20_susume_bg"},{"model":"st20_susume_L1"},{"model":"st20_L1_fb","anmClr":"st20_fb"},{"model":"st20_susume_L2"},{"model":"st20_L2_fb","anmClr":"st20_fb"},{"model":"st20_susume_L3"},{"model":"st20_L3_fb","anmClr":"st20_fb"}]}}

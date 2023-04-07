@@ -1,0 +1,2 @@
+
+{"sprinter/st_17":{"resource":"st_04_forest","models":[{"model":"st04_sky"},{"model":"st04_foerst_bg"},{"model":"st04_forest_long"},{"model":"st04_forest_long"},{"model":"st04_forest_middle"},{"model":"st04_forest_middle"},{"model":"st04_forest_short"},{"model":"st04_forest_short"},{"model":"st04_forest_mist","anmClr":"st04_forest_mist","anmTexSrt":"st04_forest_mist","drawLayer":"DRAW_LAYER_STAGE_NEAR"}]}}

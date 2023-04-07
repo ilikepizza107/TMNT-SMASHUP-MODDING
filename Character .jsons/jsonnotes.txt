@@ -1,3 +1,5 @@
+ca_XX_XXXX.bjson = character hurtbox setup? Comes from collisionGimmickParam.arc
+
 Character Properties ("runnerParam")
 walkSpeed: speed character moves when stick is tilted slightly
 runSpeed: speed character moves when stick is tilted all the way to the left or right
@@ -16,8 +18,9 @@ boneName: The bone of the character model that the hitbox is generated
 shape: The shape of the hitbox. Generally these are "SPHERE", but I have also seen "CAPSULE"
 
 
-Common Json notes:
+Common Json notes
 damageMaterials: Contains parameters for each damage material used 
+-sound: InfoIndex of what sound is played. These sounds can be found in the COMMON.PAC file
 damageEffects: Contains parameters for each damage effect called
 
 

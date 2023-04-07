@@ -1,0 +1,2 @@
+
+{"sprinter/st_00":{"resource":"st_00_trainingroom","collision":["st_00"],"isMoveCollision":[false],"anmScn":"st_00_trainingroom","models":[{"model":"st00_root","anmTexSrt":"st00_anim"},{"model":"SHD_st00"}]}}

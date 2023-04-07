@@ -1,0 +1,2 @@
+globalgame_setting notes
+DamageAttenuation: how much damage consecutive attacks will do. Controls the damage scaling of successive attacks

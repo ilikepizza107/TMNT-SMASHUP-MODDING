@@ -1,0 +1,2 @@
+
+{"sprinter/st_23":{"resource":"st_24_ikinobiro","collision":["st_24_fb01","st_24_fb02","st_24_fb03"],"isMoveCollision":[true,true,true],"anmScn":"st24_sunny","models":[{"model":"st24_cloud_sunny","anmTexSrt":"st24_cloud_sunny"},{"model":"st24_Sea","anmTexSrt":"st24_Sea","anmChr":"st24_Sea","drawLayer":"DRAW_LAYER_STAGE_MIDDLE"},{"model":"st24_iceberg","anmTexSrt":"st24_iceberg","anmChr":"st24_iceberg","drawLayer":"DRAW_LAYER_STAGE_MIDDLE"},{"model":"st24_sky"}]}}

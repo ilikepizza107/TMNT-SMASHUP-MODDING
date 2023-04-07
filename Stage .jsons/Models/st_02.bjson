@@ -1,0 +1,2 @@
+
+{"sprinter/st_02":{"resource":"st_02_turtlebase","collision":["st_02"],"isMoveCollision":[false],"anmScn":"st02","models":[{"model":"st02_1f","anmTexSrt":"st02_1f"},{"model":"st02_2f"},{"model":"st02_code"},{"model":"st02_mirror"},{"model":"st02_smork","anmTexSrt":"smork"},{"model":"SHD_st02_0"},{"model":"SHD_st02_1"}]}}
