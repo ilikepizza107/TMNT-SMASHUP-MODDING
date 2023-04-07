@@ -39,8 +39,8 @@
     "runnerParam_": {
       "gravity_": -196,
       "walkSpeed_": 40,
-      "runSpeed_": 90,
-      "dashSpeed_": 140,
+      "runSpeed_": 60,
+      "dashSpeed_": 90,
       "airResistTime_": 0.5,
       "jumpSpeedX_": 75,
       "jumpSpeedY_": [
