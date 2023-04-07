@@ -12,6 +12,10 @@ damage: How much damage the attack does to an opponent's health
 guardDamage: How much damage the attack does to an opponent's guard
 material: controls what damage material is called. These are outlined in the act00_common.json
 canGuard: controls if a move can be blocked or not
+freezeFrame: How much hitstun is applied when the move connects to an opponent on the ground
+freezeFrameGuard: How much hitstun is applied when the move connects to an opponent's guard
+freezeFrameAir: How much hitstun is applied when the move connects to an opponent in the air
+NOTE FOR ALL HITSTUN: The more (-) the number, the less hitlag will be incurred. -100 doesn't make opponent flinch at all. Likewise the more (+) the number, the more hitlag the opponent will
 hitStopFrame: How many frames of hitlag you experience when the move connects
 isConflict: controls if a move can initiate a conflict, where characters are locked in a mashing sequence
 boneName: The bone of the character model that the hitbox is generated
