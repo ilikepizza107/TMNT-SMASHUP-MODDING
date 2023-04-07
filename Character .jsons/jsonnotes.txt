@@ -1,0 +1,23 @@
+Character Properties ("runnerParam")
+walkSpeed: speed character moves when stick is tilted slightly
+runSpeed: speed character moves when stick is tilted all the way to the left or right
+dashSpeed: speed character moves when stick is smashed left or right
+gravity: how floaty a character will be. Limit seems to be -100, which is the floatiest a character can be. Anything higher than -100 (-99 and beyond) and the character will not spawn
+
+Attack Properties
+kind: presumably what kind of attack. I have never seen this be anything other than "STRIKE"
+damage: How much damage the attack does to an opponent's health
+guardDamage: How much damage the attack does to an opponent's guard
+material: controls what damage material is called. These are outlined in the act00_common.json
+canGuard: controls if a move can be blocked or not
+hitStopFrame: How many frames of hitlag you experience when the move connects
+isConflict: controls if a move can initiate a conflict, where characters are locked in a mashing sequence
+boneName: The bone of the character model that the hitbox is generated
+shape: The shape of the hitbox. Generally these are "SPHERE", but I have also seen "CAPSULE"
+
+
+Common Json notes:
+damageMaterials: Contains parameters for each damage material used 
+damageEffects: Contains parameters for each damage effect called
+
+
