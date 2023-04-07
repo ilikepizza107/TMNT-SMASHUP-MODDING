@@ -15,7 +15,9 @@ canGuard: controls if a move can be blocked or not
 freezeFrame: How much hitstun is applied when the move connects to an opponent on the ground
 freezeFrameGuard: How much hitstun is applied when the move connects to an opponent's guard
 freezeFrameAir: How much hitstun is applied when the move connects to an opponent in the air
-NOTE FOR ALL HITSTUN: The more (-) the number, the less hitlag will be incurred. -100 doesn't make opponent flinch at all. Likewise the more (+) the number, the more hitlag the opponent will
+NOTE FOR ALL HITSTUN: The more (-) the number, the less hitlag will be incurred. -100 doesn't make opponent flinch at all. Likewise the more (+) the number, the more hitlag the opponent will endure
+kbSpeed: Strength of knockback the attack does on grounded opponents. First number is kb in the X direction, second number is kb in the Y direction
+kbAirSpeed: Strength of knockback the attack does on opponents in the air. First number is kb in the X direction, second number is kb in the Y direction
 hitStopFrame: How many frames of hitlag you experience when the move connects
 isConflict: controls if a move can initiate a conflict, where characters are locked in a mashing sequence
 boneName: The bone of the character model that the hitbox is generated
