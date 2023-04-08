@@ -1,10 +1,15 @@
 ca_XX_XXXX.bjson = character hurtbox setup? Comes from collisionGimmickParam.arc
 
 Character Properties ("runnerParam")
+gravity: how floaty a character will be. Limit seems to be -100, which is the floatiest a character can be. Anything higher than -100 (-99 and beyond) and the character will not spawn
 walkSpeed: speed character moves when stick is tilted slightly
 runSpeed: speed character moves when stick is tilted all the way to the left or right
 dashSpeed: speed character moves when stick is smashed left or right
-gravity: how floaty a character will be. Limit seems to be -100, which is the floatiest a character can be. Anything higher than -100 (-99 and beyond) and the character will not spawn
+jumpSpeedX: speed character moves in the air when drifting in the X direction. The more (+) the number, the faster you will drift
+jumpSpeedY: speed character moves vertically in the air. The first number is the speed for the first jump, and the second number is the speed for the double jump. The more (+) the number, the higher you will jump
+jumpSpeedYLimit: speed cap on how fast your character moves vertically in the air. Applies to both jumps. The more (-) the number, the faster the speed allowed. If this number is set to (+), your character will start rising into the air at the speed you set it to be
+
+
 
 Attack Properties
 kind: presumably what kind of attack. I have never seen this be anything other than "STRIKE"
