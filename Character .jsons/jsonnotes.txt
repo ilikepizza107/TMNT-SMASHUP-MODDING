@@ -8,6 +8,8 @@ dashSpeed: speed character moves when stick is smashed left or right
 jumpSpeedX: speed character moves in the air when drifting in the X direction. The more (+) the number, the faster you will drift
 jumpSpeedY: speed character moves vertically in the air. The first number is the speed for the first jump, and the second number is the speed for the double jump. The more (+) the number, the higher you will jump
 jumpSpeedYLimit: speed cap on how fast your character moves vertically in the air. Applies to both jumps. The more (-) the number, the faster the speed allowed. If this number is set to (+), your character will start rising into the air at the speed you set it to be
+descentSpeed: speed character moves when falling
+descentSpeedLimit: speed cap for character when falling
 
 
 

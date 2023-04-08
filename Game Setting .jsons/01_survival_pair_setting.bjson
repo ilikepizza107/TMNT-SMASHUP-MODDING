@@ -1,2 +1,1309 @@
-
-{"sprinter/survival_setting":{"score":{"ailevel":{"score":[50,100,200,400,800,1600,3200]},"hitpoint":{"threshold":[7,21,35,49,59,79,99,100],"rate":[5.0,4.0,3.0,2.0,1.5,1.25,1.1,1.0]},"shell":{"threshold":[0,8,22,36,50,60,80,99],"count":[1,2,3,4,5,6,7,8]},"chain":{"resetFrame":1800,"count":[20,40,55,70,80,90,99,100],"rate":[1.25,1.5,2.5,4.0,6.0,8.0,10.0,100.0]},"bonus":{"tagThrow":2500,"norecover":1000000}},"difficulty":{"rateHP":[{"rate":0.7,"minValue":100,"maxValue":350},{"rate":0.8,"minValue":120,"maxValue":425},{"rate":1.0,"minValue":150,"maxValue":500},{"rate":1.3,"minValue":170,"maxValue":550},{"rate":1.5,"minValue":220,"maxValue":600}],"rateAI":[{"rate":1.0,"minValue":1,"maxValue":3},{"rate":1.0,"minValue":1,"maxValue":4},{"rate":1.4,"minValue":2,"maxValue":6},{"rate":1.55,"minValue":3,"maxValue":6},{"rate":1.85,"minValue":4,"maxValue":6}],"rateAttack":[{"rate":1.0,"minValue":0.3,"maxValue":0.5},{"rate":1.1,"minValue":0.5,"maxValue":0.8},{"rate":1.25,"minValue":0.8,"maxValue":1.2},{"rate":1.4,"minValue":1.0,"maxValue":1.25},{"rate":1.6,"minValue":1.0,"maxValue":1.5}]},"groupList":{"GroupA":{"Leon":true,"Raph":true,"Mich":true,"Dona":true,"Spli":true,"Apri":true,"Case":true,"Kara":true},"GroupB":{"Leon":true,"Raph":true,"Mich":true,"Dona":true,"Spli":true,"Apri":true,"Case":true,"Kara":true,"Foot":true},"GroupC":{"Leon":true,"Raph":true,"Mich":true,"Dona":true,"Spli":true,"Apri":true,"Case":true,"Kara":true,"Foot":true,"Utro":true},"GroupD":{"Leon":true,"Raph":true,"Mich":true,"Dona":true,"Spli":true,"Apri":true,"Case":true,"Kara":true,"Foot":true,"Utro":true,"Nigh":true},"GroupE":{"Shre":true},"GroupF":{"Foot":true},"GroupG":{"Utro":true},"GroupH":{"Nigh":true},"GroupI":{"Leon":true},"GroupJ":{"Raph":true},"GroupK":{"Mich":true},"GroupL":{"Dona":true},"GroupM":{"Spli":true},"GroupN":{"Apri":true},"GroupO":{"Case":true},"GroupP":{"Kara":true},"GroupQ":{"Fugi":true},"GroupR":{"Sct1":true},"GroupS":{"Sct2":true},"GroupT":{"Sct3":true}},"itemTableList":[{"tblId":0,"itemPatternList":[{"id":"GI_NONE","rate":90},{"id":"GI_PIZZAF","rate":2},{"id":"GI_PIZZAQ","rate":4},{"id":"GI_NINPODAMA","rate":4,"paramList":[{"typeVal":100,"ival":0,"fval":10},{"typeVal":100,"ival":1,"fval":10},{"typeVal":100,"ival":2,"fval":10},{"typeVal":100,"ival":3,"fval":10},{"typeVal":100,"ival":4,"fval":10},{"typeVal":100,"ival":5,"fval":10},{"typeVal":100,"ival":6,"fval":10},{"typeVal":100,"ival":7,"fval":10},{"typeVal":100,"ival":8,"fval":10}]}]},{"tblId":1,"itemPatternList":[{"id":"GI_PIZZAF","rate":100},{"id":"GI_PIZZAQ","rate":0},{"id":"GI_NINPODAMA","rate":0,"paramList":[{"typeVal":100,"ival":0,"fval":50},{"typeVal":100,"ival":1,"fval":0},{"typeVal":100,"ival":2,"fval":0},{"typeVal":100,"ival":3,"fval":0},{"typeVal":100,"ival":4,"fval":50},{"typeVal":100,"ival":5,"fval":0},{"typeVal":100,"ival":6,"fval":0},{"typeVal":100,"ival":7,"fval":0},{"typeVal":100,"ival":8,"fval":0}]}]}],"characterList":[[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"entry":0,"costume":0,"reappear":2,"item":0}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupA","hitpoint":100,"attack":0.500000,"ailevel":0,"reappear":2}],[{"group":"GroupE","hitpoint":180,"attack":0.750000,"ailevel":2,"entry":0,"reappear":2,"item":1}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupA","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupB","hitpoint":125,"attack":0.500000,"ailevel":1,"reappear":2}],[{"group":"GroupN","hitpoint":400,"attack":0.750000,"ailevel":1,"entry":0,"reappear":2},{"group":"GroupO","hitpoint":400,"attack":0.750000,"ailevel":1,"entry":0,"reappear":2,"item":1}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupB","hitpoint":150,"attack":0.600000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupF","hitpoint":400,"attack":0.750000,"ailevel":2,"entry":0,"reappear":2},{"group":"GroupG","hitpoint":400,"attack":0.800000,"ailevel":2,"entry":0,"reappear":2,"item":1}],[{"group":"GroupC","hitpoint":175,"attack":0.700000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.700000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.500000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.650000,"ailevel":2,"reappear":2}],[{"group":"GroupC","hitpoint":175,"attack":0.700000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.800000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.800000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.800000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":175,"attack":0.800000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.850000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.85000,"ailevel":3,"reappear":2}],[{"group":"GroupP","hitpoint":400,"attack":0.900000,"ailevel":3,"entry":0,"reappear":2},{"group":"GroupH","hitpoint":400,"attack":0.900000,"ailevel":3,"entry":0,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":2,"reappear":2}],[{"group":"GroupQ","hitpoint":225,"attack":0.900000,"ailevel":2,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":2,"reappear":2}],[{"group":"GroupK","hitpoint":450,"attack":0.900000,"ailevel":4,"entry":0,"reappear":2},{"group":"GroupL","hitpoint":450,"attack":0.900000,"ailevel":3,"entry":0,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupR","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":200,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupS","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":225,"attack":0.900000,"ailevel":3,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupT","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4,"reappear":2}],[{"group":"GroupD","hitpoint":250,"attack":1.000000,"ailevel":4}],[{"group":"GroupE","hitpoint":500,"attack":1.10000,"ailevel":5,"entry":0,"costume":0},{"group":"GroupE","hitpoint":500,"attack":1.10000,"ailevel":5,"entry":0,"costume":1}]]}}
+{
+  "sprinter/survival_setting": {
+    "score": {
+      "ailevel": {
+        "score": [
+          50,
+          100,
+          200,
+          400,
+          800,
+          1600,
+          3200
+        ]
+      },
+      "hitpoint": {
+        "threshold": [
+          7,
+          21,
+          35,
+          49,
+          59,
+          79,
+          99,
+          100
+        ],
+        "rate": [
+          5,
+          4,
+          3,
+          2,
+          1.5,
+          1.25,
+          1.1,
+          1
+        ]
+      },
+      "shell": {
+        "threshold": [
+          0,
+          8,
+          22,
+          36,
+          50,
+          60,
+          80,
+          99
+        ],
+        "count": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "chain": {
+        "resetFrame": 1800,
+        "count": [
+          20,
+          40,
+          55,
+          70,
+          80,
+          90,
+          99,
+          100
+        ],
+        "rate": [
+          1.25,
+          1.5,
+          2.5,
+          4,
+          6,
+          8,
+          10,
+          100
+        ]
+      },
+      "bonus": {
+        "tagThrow": 2500,
+        "norecover": 1000000
+      }
+    },
+    "difficulty": {
+      "rateHP": [
+        {
+          "rate": 0.7,
+          "minValue": 100,
+          "maxValue": 350
+        },
+        {
+          "rate": 0.8,
+          "minValue": 120,
+          "maxValue": 425
+        },
+        {
+          "rate": 1,
+          "minValue": 150,
+          "maxValue": 500
+        },
+        {
+          "rate": 1.3,
+          "minValue": 170,
+          "maxValue": 550
+        },
+        {
+          "rate": 1.5,
+          "minValue": 220,
+          "maxValue": 600
+        }
+      ],
+      "rateAI": [
+        {
+          "rate": 1,
+          "minValue": 1,
+          "maxValue": 3
+        },
+        {
+          "rate": 1,
+          "minValue": 1,
+          "maxValue": 4
+        },
+        {
+          "rate": 1.4,
+          "minValue": 2,
+          "maxValue": 6
+        },
+        {
+          "rate": 1.55,
+          "minValue": 3,
+          "maxValue": 6
+        },
+        {
+          "rate": 1.85,
+          "minValue": 4,
+          "maxValue": 6
+        }
+      ],
+      "rateAttack": [
+        {
+          "rate": 1,
+          "minValue": 0.3,
+          "maxValue": 0.5
+        },
+        {
+          "rate": 1.1,
+          "minValue": 0.5,
+          "maxValue": 0.8
+        },
+        {
+          "rate": 1.25,
+          "minValue": 0.8,
+          "maxValue": 1.2
+        },
+        {
+          "rate": 1.4,
+          "minValue": 1,
+          "maxValue": 1.25
+        },
+        {
+          "rate": 1.6,
+          "minValue": 1,
+          "maxValue": 1.5
+        }
+      ]
+    },
+    "groupList": {
+      "GroupA": {
+        "Leon": true,
+        "Raph": true,
+        "Mich": true,
+        "Dona": true,
+        "Spli": true,
+        "Apri": true,
+        "Case": true,
+        "Kara": true
+      },
+      "GroupB": {
+        "Leon": true,
+        "Raph": true,
+        "Mich": true,
+        "Dona": true,
+        "Spli": true,
+        "Apri": true,
+        "Case": true,
+        "Kara": true,
+        "Foot": true
+      },
+      "GroupC": {
+        "Leon": true,
+        "Raph": true,
+        "Mich": true,
+        "Dona": true,
+        "Spli": true,
+        "Apri": true,
+        "Case": true,
+        "Kara": true,
+        "Foot": true,
+        "Utro": true
+      },
+      "GroupD": {
+        "Leon": true,
+        "Raph": true,
+        "Mich": true,
+        "Dona": true,
+        "Spli": true,
+        "Apri": true,
+        "Case": true,
+        "Kara": true,
+        "Foot": true,
+        "Utro": true,
+        "Nigh": true
+      },
+      "GroupE": {
+        "Shre": true
+      },
+      "GroupF": {
+        "Foot": true
+      },
+      "GroupG": {
+        "Utro": true
+      },
+      "GroupH": {
+        "Nigh": true
+      },
+      "GroupI": {
+        "Leon": true
+      },
+      "GroupJ": {
+        "Raph": true
+      },
+      "GroupK": {
+        "Mich": true
+      },
+      "GroupL": {
+        "Dona": true
+      },
+      "GroupM": {
+        "Spli": true
+      },
+      "GroupN": {
+        "Apri": true
+      },
+      "GroupO": {
+        "Case": true
+      },
+      "GroupP": {
+        "Kara": true
+      },
+      "GroupQ": {
+        "Fugi": true
+      },
+      "GroupR": {
+        "Sct1": true
+      },
+      "GroupS": {
+        "Sct2": true
+      },
+      "GroupT": {
+        "Sct3": true
+      }
+    },
+    "itemTableList": [
+      {
+        "tblId": 0,
+        "itemPatternList": [
+          {
+            "id": "GI_NONE",
+            "rate": 90
+          },
+          {
+            "id": "GI_PIZZAF",
+            "rate": 2
+          },
+          {
+            "id": "GI_PIZZAQ",
+            "rate": 4
+          },
+          {
+            "id": "GI_NINPODAMA",
+            "rate": 4,
+            "paramList": [
+              {
+                "typeVal": 100,
+                "ival": 0,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 1,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 2,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 3,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 4,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 5,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 6,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 7,
+                "fval": 10
+              },
+              {
+                "typeVal": 100,
+                "ival": 8,
+                "fval": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tblId": 1,
+        "itemPatternList": [
+          {
+            "id": "GI_PIZZAF",
+            "rate": 100
+          },
+          {
+            "id": "GI_PIZZAQ",
+            "rate": 0
+          },
+          {
+            "id": "GI_NINPODAMA",
+            "rate": 0,
+            "paramList": [
+              {
+                "typeVal": 100,
+                "ival": 0,
+                "fval": 50
+              },
+              {
+                "typeVal": 100,
+                "ival": 1,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 2,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 3,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 4,
+                "fval": 50
+              },
+              {
+                "typeVal": 100,
+                "ival": 5,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 6,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 7,
+                "fval": 0
+              },
+              {
+                "typeVal": 100,
+                "ival": 8,
+                "fval": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "characterList": [
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "entry": 0,
+          "costume": 0,
+          "reappear": 2,
+          "item": 0
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 100,
+          "attack": 0.5,
+          "ailevel": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupE",
+          "hitpoint": 180,
+          "attack": 0.75,
+          "ailevel": 2,
+          "entry": 0,
+          "reappear": 2,
+          "item": 1
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupA",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 125,
+          "attack": 0.5,
+          "ailevel": 1,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupN",
+          "hitpoint": 400,
+          "attack": 0.75,
+          "ailevel": 1,
+          "entry": 0,
+          "reappear": 2
+        },
+        {
+          "group": "GroupO",
+          "hitpoint": 400,
+          "attack": 0.75,
+          "ailevel": 1,
+          "entry": 0,
+          "reappear": 2,
+          "item": 1
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupB",
+          "hitpoint": 150,
+          "attack": 0.6,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupF",
+          "hitpoint": 400,
+          "attack": 0.75,
+          "ailevel": 2,
+          "entry": 0,
+          "reappear": 2
+        },
+        {
+          "group": "GroupG",
+          "hitpoint": 400,
+          "attack": 0.8,
+          "ailevel": 2,
+          "entry": 0,
+          "reappear": 2,
+          "item": 1
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.7,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.7,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.5,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.65,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupC",
+          "hitpoint": 175,
+          "attack": 0.7,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.8,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.8,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.8,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 175,
+          "attack": 0.8,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.85,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupP",
+          "hitpoint": 400,
+          "attack": 0.9,
+          "ailevel": 3,
+          "entry": 0,
+          "reappear": 2
+        },
+        {
+          "group": "GroupH",
+          "hitpoint": 400,
+          "attack": 0.9,
+          "ailevel": 3,
+          "entry": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupQ",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 2,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupK",
+          "hitpoint": 450,
+          "attack": 0.9,
+          "ailevel": 4,
+          "entry": 0,
+          "reappear": 2
+        },
+        {
+          "group": "GroupL",
+          "hitpoint": 450,
+          "attack": 0.9,
+          "ailevel": 3,
+          "entry": 0,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupR",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 200,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupS",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 225,
+          "attack": 0.9,
+          "ailevel": 3,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupT",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4,
+          "reappear": 2
+        }
+      ],
+      [
+        {
+          "group": "GroupD",
+          "hitpoint": 250,
+          "attack": 1,
+          "ailevel": 4
+        }
+      ],
+      [
+        {
+          "group": "GroupE",
+          "hitpoint": 500,
+          "attack": 1.1,
+          "ailevel": 5,
+          "entry": 0,
+          "costume": 0
+        },
+        {
+          "group": "GroupE",
+          "hitpoint": 500,
+          "attack": 1.1,
+          "ailevel": 5,
+          "entry": 0,
+          "costume": 1
+        }
+      ]
+    ]
+  }
+}
