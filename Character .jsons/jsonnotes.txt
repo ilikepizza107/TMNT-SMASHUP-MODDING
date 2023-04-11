@@ -1,5 +1,6 @@
 ca_XX_XXXX.bjson = character hurtbox setup? Comes from collisionGimmickParam.arc
 
+
 Character Properties ("runnerParam")
 gravity: how floaty a character will be. Limit seems to be -100, which is the floatiest a character can be. Anything higher than -100 (-99 and beyond) and the character will not spawn
 walkSpeed: speed character moves when stick is tilted slightly
@@ -10,7 +11,6 @@ jumpSpeedY: speed character moves vertically in the air. The first number is the
 jumpSpeedYLimit: speed cap on how fast your character moves vertically in the air. Applies to both jumps. The more (-) the number, the faster the speed allowed. If this number is set to (+), your character will start rising into the air at the speed you set it to be
 descentSpeed: speed character moves when falling
 descentSpeedLimit: speed cap for character when falling
-
 
 
 Attack Properties
@@ -29,6 +29,17 @@ hitStopFrame: How many frames of hitlag you experience when the move connects
 isConflict: controls if a move can initiate a conflict, where characters are locked in a mashing sequence
 boneName: The bone of the character model that the hitbox is generated
 shape: The shape of the hitbox. Generally these are "SPHERE", but I have also seen "CAPSULE"
+
+
+Move Input notes (attackerParam)
+kind: How hard you press the stick. Normal = tilt input, Strong_Stick = tap input.
+stick: What direction the stick is pressed. The directions (going clockwise) is UP, RIGHT_UP, RIGHT, RIGHT_DOWN, DOWN, LEFT_DOWN, LEFT, and LEFT_UP
+button: What button is pressed. Options include: ATTACK, STRONG_ATTACK, SPECIAL, GRAB
+
+
+Combo Table 
+Defines what moves can be cancelled out of moves. 
+
 
 
 Common Json notes
