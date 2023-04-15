@@ -1,5 +1,6 @@
 ca_XX_XXXX.bjson = character hurtbox setup? Comes from collisionGimmickParam.arc
 
+AC00_XXXX.JSON NOTES
 
 Character Properties ("runnerParam")
 gravity: how floaty a character will be. Limit seems to be -100, which is the floatiest a character can be. Anything higher than -100 (-99 and beyond) and the character will not spawn
@@ -40,6 +41,25 @@ button: What button is pressed. Options include: ATTACK, STRONG_ATTACK, SPECIAL,
 Combo Table 
 Defines what moves can be cancelled out of moves. 
 
+
+
+
+AC01_XXXX.JSON NOTES
+tll::actor::command::LerpFrame - Specifies what frame to start lerp(?)
+- lerpFrame: the frame LERP will start(?)
+
+tll::actor::command:Anm - Calls an animation
+- animeName: the number associated with the animation (can be seen in the character animation's name)
+- frame: frame the animation starts on
+
+command::Nall - relates to the N_ALL character bone
+- isEnable: ?
+- isRotEnable: Enables rotation of the N_ALL character bone(?)
+
+tll::actor::command::Frame - specifies a frame in the animation(?), usually comes before another class
+- frame: The frame of the animation being used in the next class instruction(?)
+
+tll::actor::command::Cancel - allows for the cancelling of the current called animation, at the frame defined by the previous tll::actor::command::Frame. Can lead to some interesting movement
 
 
 Common Json notes
