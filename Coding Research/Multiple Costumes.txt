@@ -1,0 +1,3 @@
+From: MarioDox
+address 900206FF, this is the value that holds when the Z button costume is supposed to be used, it's normally a byte either 0 or 1
+but the game simply does multiply this value by 20 therefore, if the value was let's say 2, it would load files in the 40 area.
