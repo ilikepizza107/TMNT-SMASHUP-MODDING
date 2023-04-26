@@ -1,0 +1,5 @@
+All addresses are the game internal count, UI does not update until after you die
+8070ABE0 = P1 Stock count
+8070AD90 = P2 Stock count
+8070AF40 = P3 Stock count
+8070B0F0 = P4 Stock count
