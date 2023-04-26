@@ -1,10 +1,17 @@
 <wiidisc version="1">
 	<id game="R2T"/>
 	<options>
-		<section name="Testing">
-			<option name="/TMNT Replacement">
+		<section name="TMNT Smash-Up">
+			<option name="File Replacement">
 				<choice name="Enabled">
 					<patch id="tmntfolder"/>
+				</choice>
+			</option>
+			<option name="Codes">			
+				<choice name="Enabled">
+					<patch id="ocarinabase_ossleep" />
+					<patch id="ocarinabase" />
+					<patch id="ocarinacodes" />
 				</choice>
 			</option>
 		</section>
@@ -13,4 +20,18 @@
 		<folder external="/tmnt" recursive="false"/>
 		<folder external="/tmnt" disc="/"/>
 	</patch>
-<style id="autoconsent-prehide"/></wiidisc>
+	<patch id="ocarinabase_ossleep">
+		<memory ocarina="true" value="90A402E0806502E4908502E42C030000" offset="0x800018A8" />
+	</patch>
+	<patch id="ocarinabase">
+		<memory valuefile="codehandler.bin" offset="0x80001800" />
+	</patch>
+	<patch id="ocarinacodes">
+		<memory offset="0x00001CDE" value="8000"/>
+		<memory offset="0x00001CE2" value="28B8"/>
+		<memory offset="0x00001F5A" value="8000"/>
+		<memory offset="0x00001F5E" value="28B8"/>
+		<memory valuefile="/codes/R2TE41.GCT" offset="0x800028B8"/>
+	</patch>
+<style id="autoconsent-prehide"/>
+</wiidisc>

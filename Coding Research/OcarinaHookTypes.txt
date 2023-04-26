@@ -1,0 +1,2 @@
+VI Hook, OSSleep, and AxNextFrame Hooks all work. Will be using OSSleep unless need for another hook type occurs
+Reasoning: https://mariokartwii.com/showthread.php?tid=1008
