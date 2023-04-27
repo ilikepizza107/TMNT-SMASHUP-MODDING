@@ -1,7 +1,7 @@
 ############################################################################
 # TMNT Smash-Up R2TE41.txt    						   #
 #                        						   #
-# Requires GCTRealMat provided to assemble the GCT!		           #
+# Requires GCTRealMate provided to assemble the GCT!		           #
 #									   #
 ############################################################################
 

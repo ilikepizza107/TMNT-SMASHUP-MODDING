@@ -1,2 +1,3 @@
-VI Hook, OSSleep, and AxNextFrame Hooks all work. Will be using OSSleep unless need for another hook type occurs
+VI Hook, OSSleep, and AxNextFrame Hooks all work. Will be using AxNextFrame unless need for another hook type occurs.
+OSSleep made the game do weird graphical glitches.
 Reasoning: https://mariokartwii.com/showthread.php?tid=1008

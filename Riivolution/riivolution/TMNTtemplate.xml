@@ -9,7 +9,7 @@
 			</option>
 			<option name="Codes">			
 				<choice name="Enabled">
-					<patch id="ocarinabase_ossleep" />
+					<patch id="ocarinabase_axnextframe"/>
 					<patch id="ocarinabase" />
 					<patch id="ocarinacodes" />
 				</choice>
@@ -20,11 +20,11 @@
 		<folder external="/tmnt" recursive="false"/>
 		<folder external="/tmnt" disc="/"/>
 	</patch>
-	<patch id="ocarinabase_ossleep">
-		<memory ocarina="true" value="90A402E0806502E4908502E42C030000" offset="0x800018A8" />
+	<patch id="ocarinabase_axnextframe">
+		<memory ocarina="true" value="3800000E7FE3FB78B005000038800080" offset="0x800018A8"/>
 	</patch>
 	<patch id="ocarinabase">
-		<memory valuefile="codehandler.bin" offset="0x80001800" />
+		<memory valuefile="codehandler.bin" offset="0x80001800"/>
 	</patch>
 	<patch id="ocarinacodes">
 		<memory offset="0x00001CDE" value="8000"/>
