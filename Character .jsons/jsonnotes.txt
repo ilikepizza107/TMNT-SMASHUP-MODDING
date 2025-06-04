@@ -7,6 +7,7 @@ gravity: how floaty a character will be. Limit seems to be -100, which is the fl
 walkSpeed: speed character moves when stick is tilted slightly
 runSpeed: speed character moves when stick is tilted all the way to the left or right
 dashSpeed: speed character moves when stick is smashed left or right
+airResistTime: how long a character will "hang" at the apex of their jump.
 jumpSpeedX: speed character moves in the air when drifting in the X direction. The more (+) the number, the faster you will drift
 jumpSpeedY: speed character moves vertically in the air. The first number is the speed for the first jump, and the second number is the speed for the double jump. The more (+) the number, the higher you will jump
 jumpSpeedYLimit: speed cap on how fast your character moves vertically in the air. Applies to both jumps. The more (-) the number, the faster the speed allowed. If this number is set to (+), your character will start rising into the air at the speed you set it to be
@@ -15,7 +16,7 @@ descentSpeedLimit: speed cap for character when falling
 
 
 Attack Properties
-kind: presumably what kind of attack. I have never seen this be anything other than "STRIKE"
+kind: presumably what kind of attack. There seem to be a few types, that being "STRIKE", "GRAB", "THROW", and "MOVEBOX". Changing a "STRIKE" kind to a "GRAB" kind will make that hitbox a command grab, essentially. Changing a "STRIKE" kind to a "MOVEBOX" kind makes the hitbox only affect items and item boxes.
 damage: How much damage the attack does to an opponent's health
 guardDamage: How much damage the attack does to an opponent's guard
 material: controls what damage material is called. These are outlined in the act00_common.json
