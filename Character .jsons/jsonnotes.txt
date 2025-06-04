@@ -68,3 +68,7 @@ damageMaterials: Contains parameters for each damage material used
 damageEffects: Contains parameters for each damage effect called
 
 
+REBUILDING:
+- Be sure to use https://jsonformatter.org/json-minify to condense code. 
+- The start of each .json file needs an "0D 0A" block at the start. 
+- Open the JSON.PAC file with WiiExplorer and export the .arc you want to enter. Open that .arc with BrawlCrate and replace the .json files you need, then save and close Brawlcrate. Afterward, open the JSON.pac WiiExplorer and delete the .arc you want to replace, then add your modified .arc back in
