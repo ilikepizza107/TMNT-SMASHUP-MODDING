@@ -26,20 +26,20 @@
       }
     },
     "runnerParam_": {
-      "gravity_": -196,
+      "gravity_": -450,
       "walkSpeed_": 37.5,
       "runSpeed_": 75,
       "dashSpeed_": 112.5,
-      "airResistTime_": 0.5,
+      "airResistTime_": 0.55,
       "jumpDeltaX_": 500,
       "jumpSpeedX_": 75,
       "jumpSpeedY_": [
-        110,
-        110
+        120,
+        190
       ],
-      "jumpSpeedYLimit_": -150,
-      "descentSpeed_": -200,
-      "descentSpeedLimit_": -250,
+      "jumpSpeedYLimit_": -300,
+      "descentSpeed_": -500,
+      "descentSpeedLimit_": -350,
       "actStandL_": "stand_left",
       "actStandR_": "stand_right"
     },
