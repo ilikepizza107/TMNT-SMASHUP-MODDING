@@ -46,7 +46,10 @@ Defines what moves can be cancelled out of moves.
 
 
 AC01_XXXX.JSON NOTES
-tll::actor::command::LerpFrame - Specifies what frame to start lerp(?)
+tll::actor::command::Frame - specifies a frame in the animation for the following command to start on. For example, if the "frame_" variable is 10 and the next command is a "command::SeOneShot", then the sound effect will play on frame 10 of the animation.
+- frame: The frame of the animation specified
+
+tll::actor::command::LerpFrame - Specifies what frame to start LERP frames in the animation. This is usually reserved for movement options, and 
 - lerpFrame: the frame LERP will start(?)
 
 tll::actor::command:Anm - Calls an animation
@@ -57,10 +60,16 @@ command::Nall - relates to the N_ALL character bone
 - isEnable: ?
 - isRotEnable: Enables rotation of the N_ALL character bone(?)
 
-tll::actor::command::Frame - specifies a frame in the animation(?), usually comes before another class
-- frame: The frame of the animation being used in the next class instruction(?)
+tll::actor::command::Cancel - allows for the cancelling of the currently called animation, at the frame defined by the previous tll::actor::command::Frame. Can lead to some interesting movement
 
-tll::actor::command::Cancel - allows for the cancelling of the current called animation, at the frame defined by the previous tll::actor::command::Frame. Can lead to some interesting movement
+command::SeOneShot - plays a sound effect from the COMMON.PAC sound list. "index" refers to the InfoIndex of the sound effect. However, this is in decimal, not hex.
+
+command::ExtraSeOneShot - plays a sound effect from the CXX.PAC (character) sound list. "index" refers to the InfoIndex of the sound effect. However, this is in decimal, not hex.
+
+command::RandomSeOneShot - plays a random sound effect from a list of sound effects in the CXX.PAC sound list.
+- name_: The name of the folder 
+
+command::EffectMat
 
 
 Common Json notes

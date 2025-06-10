@@ -35,10 +35,10 @@
       "jumpSpeedX_": 75,
       "jumpSpeedY_": [
         120,
-        190
+        200
       ],
       "jumpSpeedYLimit_": -300,
-      "descentSpeed_": -500,
+      "descentSpeed_": -475,
       "descentSpeedLimit_": -350,
       "actStandL_": "stand_left",
       "actStandR_": "stand_right"
