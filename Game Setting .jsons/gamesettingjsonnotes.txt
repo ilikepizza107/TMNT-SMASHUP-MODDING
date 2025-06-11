@@ -1,2 +1,4 @@
+These .jsons are all packaged in the JSON.PAC file, and are in the globalSetting.arc portion of that file
+
 globalgame_setting notes
 DamageAttenuation: how much damage consecutive attacks will do. Controls the damage scaling of successive attacks

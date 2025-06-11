@@ -71,6 +71,7 @@ command::RandomSeOneShot - plays a random sound effect from a list of sound effe
 
 command::EffectMat
 
+command::Pressure - Sets when a character is invincible and when they are not. Pressure kind "THROUGH" means they're invincible, pressure kind "NORMAL" means they can be hit.
 
 Common Json notes
 damageMaterials: Contains parameters for each damage material used 
