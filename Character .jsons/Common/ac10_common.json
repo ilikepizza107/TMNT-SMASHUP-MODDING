@@ -1309,10 +1309,6 @@
         "direction_": "FACEDOWN"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::ControllerVibration",
         "name_": "damage_SS"
       },
@@ -1336,10 +1332,6 @@
         "@class": "tll::actor::command::FrameEnd"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
         "@class": "command::NallSpeed",
         "speedX_": -70,
         "speedY_": 20
@@ -1361,10 +1353,6 @@
       {
         "@class": "command::Air",
         "isEnable_": true
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1394,10 +1382,6 @@
         "@class": "tll::actor::command::FrameEnd"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
         "@class": "command::NallSpeed",
         "speedX_": -20,
         "speedY_": 100
@@ -1423,10 +1407,6 @@
       {
         "@class": "command::DamagePose",
         "direction_": "FACEUP"
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1486,10 +1466,6 @@
       {
         "@class": "tll::actor::command::TotalFrame",
         "frame_": 57
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       },
       {
         "@class": "command::NallSpeed",
