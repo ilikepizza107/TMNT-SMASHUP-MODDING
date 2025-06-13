@@ -467,6 +467,9 @@
         "index_": 200
       },
       {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
         "@class": "tll::actor::command::Frame",
         "frame_": 14
       },
@@ -678,18 +681,18 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 3
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 4
       },
       {
         "@class": "command::SeOneShot",
         "index_": 15
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 5
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -721,6 +724,13 @@
       },
       {
         "@class": "command::ResetDamageOwner"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 3
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2819,7 +2829,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
+        "frame_": 25
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -5682,7 +5692,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 7
       },
       {
         "@class": "command::Hit",
@@ -5693,14 +5703,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 10
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 14
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
@@ -5708,7 +5718,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 58
+        "frame_": 31
       },
       {
         "@class": "tll::actor::command::Cancel"

@@ -27,21 +27,21 @@
       }
     },
     "runnerParam_": {
-      "gravity_": -186,
+      "gravity_": -455,
       "walkSpeed_": 35,
-      "runSpeed_": 60,
+      "runSpeed_": 65,
       "dashSpeed_": 135,
-      "airResistTime_": 0.5,
+      "airResistTime_": 0.55,
       "jumpDeltaX_": 500,
-      "jumpSpeedX_": 60,
+      "jumpSpeedX_": 80,
       "jumpSpeedY_": [
-        120,
-        120
+        125,
+        210
       ],
       "jumpSpeedYLimit_": -200,
       "floorResistTime_": 0.05,
-      "descentSpeed_": -300,
-      "descentSpeedLimit_": -400,
+      "descentSpeed_": -480,
+      "descentSpeedLimit_": -375,
       "actStandL_": "stand_left",
       "actStandR_": "stand_right"
     },
@@ -250,13 +250,13 @@
           "guardDamage_": 30,
           "material_": "SAIUCHI_M",
           "canGuard_": true,
-          "freezeFrame_": -14,
-          "freezeFrameGuard_": -26,
+          "freezeFrame_": 14,
+          "freezeFrameGuard_": 26,
           "freezeFrameAir_": 70,
-          "kbKind_": "damage_air",
+          "kbKind_": "damage_stagger",
           "kbSpeed_": [
-            10,
-            120
+            20,
+            10
           ],
           "kbAirSpeed_": [
             50,
@@ -339,7 +339,7 @@
           "freezeFrameAir_": 40,
           "kbKind_": "damage_air_sp",
           "kbSpeed_": [
-            150,
+            -150,
             120
           ],
           "kbAirSpeed_": [
@@ -1929,14 +1929,16 @@
             "attack0": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
             "attack_R_A": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
@@ -1975,7 +1977,8 @@
             "attack0": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
