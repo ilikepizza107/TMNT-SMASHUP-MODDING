@@ -605,10 +605,6 @@
         "animeName_": "228"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 2
       },
@@ -648,10 +644,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 20
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -1195,14 +1187,6 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
         "frame_": 48
       },
       {
@@ -1237,10 +1221,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 99
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1616,14 +1596,6 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 5
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
         "frame_": 28
       },
       {
@@ -1652,10 +1624,6 @@
       {
         "@class": "tll::actor::command::Anm",
         "animeName_": "111"
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       }
     ],
     "down_facedown": [
@@ -1697,14 +1665,6 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 5
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
         "frame_": 20
       },
       {
@@ -1733,10 +1693,6 @@
       {
         "@class": "tll::actor::command::Anm",
         "animeName_": "112"
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       }
     ],
     "bound_faceup": [
@@ -1793,10 +1749,6 @@
         "animeName_": "110"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 2
       },
@@ -1847,10 +1799,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 50
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       }
     ],
     "bound_facedown": [
@@ -1907,10 +1855,6 @@
         "animeName_": "109"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 2
       },
@@ -1961,10 +1905,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 50
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       }
     ],
     "getup_faceup": [
@@ -6533,6 +6473,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 14
       },
       {
@@ -6639,10 +6587,6 @@
         "frame_": 116
       },
       {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
         "@class": "tll::actor::command::FrameEnd"
       }
     ],
@@ -6683,6 +6627,14 @@
       {
         "@class": "command::ExtraSeOneShot",
         "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -6918,14 +6870,6 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 131
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
         "frame_": 133
       },
       {
@@ -6969,6 +6913,14 @@
       {
         "@class": "command::RandomSeOneShot",
         "name_": "charge"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -7100,10 +7052,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 174
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::Frame",

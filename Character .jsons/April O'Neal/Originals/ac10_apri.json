@@ -11,15 +11,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 18
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -27,7 +19,23 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "frame_": 24
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 203
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 53
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 203
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 74
       },
       {
         "@class": "command::ExtraSeOneShot",
@@ -35,35 +43,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 51
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 243
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 72
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 103
+        "frame_": 90
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 50
+        "index_": 45
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -106,11 +90,11 @@
     "walk_loop": [
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 2
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 2
       },
       {
         "@class": "command::EffectMat",
@@ -119,11 +103,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 48
+        "frame_": 32
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 3
       },
       {
         "@class": "command::EffectMat",
@@ -155,19 +139,16 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 22
+        "frame_": 19
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 2
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 25
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "command::EffectMat",
+        "effectName_": "walk",
+        "soundName_": "footstep"
       }
     ],
     "run": [
@@ -193,7 +174,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 16
       },
       {
         "@class": "command::EffectMat",
@@ -202,11 +183,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 24
+        "frame_": 22
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 17
       },
       {
         "@class": "command::EffectMat",
@@ -237,25 +218,25 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 16
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash",
-        "soundName_": "footstep"
+        "soundName_": "footstep_dash"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "frame_": 17
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 17
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash",
-        "soundName_": "footstep"
+        "soundName_": "footstep_dash"
       }
     ],
     "dash_stop": [
@@ -269,6 +250,10 @@
         "frame_": 0
       },
       {
+        "@class": "command::SeOneShot",
+        "index_": 199
+      },
+      {
         "@class": "command::Nall",
         "isEnable_": false
       },
@@ -278,7 +263,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 246
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -287,7 +272,15 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "dash_stop",
-        "soundName_": "footstep"
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -295,22 +288,6 @@
       },
       {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 13
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 241
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 18
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -333,28 +310,28 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 246
+        "index_": 199
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
+        "frame_": 9
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 16
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash",
-        "soundName_": "footstep"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 16
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 241
+        "soundName_": "footstep_dash"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -433,18 +410,22 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
+        "frame_": 15
       },
       {
         "@class": "command::Air",
         "isEnable_": false
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 19
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::FrameEnd"
       }
     ],
     "jump": [
@@ -476,15 +457,15 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump",
-        "soundName_": "footstep"
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 46
       },
       {
         "@class": "command::RandomSeOneShot",
         "name_": "jump"
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 243
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -515,7 +496,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 244
+        "index_": 50
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -544,22 +525,14 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "footstep"
+        "soundName_": "footstep_landing"
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "command::ResetDamageOwner"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 3
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -570,19 +543,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 24
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 26
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -597,22 +562,14 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "footstep"
+        "soundName_": "footstep_landing"
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "command::ResetDamageOwner"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 9
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
       },
       {
         "@class": "command::ExtraSeOneShot",
@@ -620,10 +577,34 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 16
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 30
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 44
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -640,11 +621,6 @@
         "isEnable_": false
       },
       {
-        "@class": "command::IK",
-        "node_": "IK_L_LEG",
-        "isEnable_": false
-      },
-      {
         "@class": "command::Armor",
         "kind_": "THROUGH"
       },
@@ -658,15 +634,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 7
+        "frame_": 6
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 82
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 8
       },
       {
         "@class": "command::Hit",
@@ -677,15 +653,15 @@
         "frame_": 20
       },
       {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
         "@class": "command::Armor",
         "kind_": "NORMAL"
       },
       {
-        "@class": "tll::actor::command::Cancel"
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 35
       },
       {
         "@class": "command::IK",
@@ -693,17 +669,12 @@
         "isEnable_": true
       },
       {
-        "@class": "command::IK",
-        "node_": "IK_L_LEG",
-        "isEnable_": true
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 37
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -717,6 +688,16 @@
         "subFuncName_": "swing_by_loop"
       },
       {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep01",
+        "isVisible_": false
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep03",
+        "isVisible_": true
+      },
+      {
         "@class": "command::SeOneShot",
         "index_": 59
       },
@@ -726,7 +707,7 @@
       },
       {
         "@class": "command::SeDetailOneShot",
-        "index_": 247,
+        "index_": 75,
         "pitch_": 0.6,
         "lpfFreq_": -0.5,
         "reverb_": 1,
@@ -741,17 +722,17 @@
         "@class": "command::Effect",
         "type_": "EF_CHARA",
         "id_": 8,
-        "boneName_": "clothR3_C"
+        "boneName_": "RightWeapon"
       }
     ],
     "swing_by_loop": [
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 247
+        "index_": 75
       }
     ],
     "swing_by_attack": [
@@ -764,16 +745,16 @@
         "hitName_": "hitSwingBy"
       },
       {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP4"
+      },
+      {
         "@class": "command::SeOneShot",
         "index_": 198
       },
       {
         "@class": "command::ExtraSeOneShot",
         "index_": 13
-      },
-      {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP4"
       }
     ],
     "dodge_forward": [
@@ -794,10 +775,6 @@
         "index_": 58
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 35
-      },
-      {
         "@class": "command::Effect",
         "type_": "EF_CHARA",
         "id_": 9,
@@ -811,25 +788,33 @@
         "coordKind_": "CONSTRAIN"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "@class": "command::ExtraSeOneShot",
+        "index_": 35
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
+        "@class": "tll::actor::command::Frame",
+        "frame_": 2
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash_stop",
-        "soundName_": "footstep"
+        "soundName_": "footstep_dash"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 17
+        "frame_": 18
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -842,10 +827,6 @@
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 21
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 246
       },
       {
         "@class": "command::Armor",
@@ -861,6 +842,14 @@
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 40
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -884,10 +873,6 @@
         "index_": 58
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 35
-      },
-      {
         "@class": "command::Effect",
         "type_": "EF_CHARA",
         "id_": 9,
@@ -901,25 +886,21 @@
         "coordKind_": "CONSTRAIN"
       },
       {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 35
+      },
+      {
         "@class": "tll::actor::command::Frame",
         "frame_": 10
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 241
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash_stop",
-        "soundName_": "footstep"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 18
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "soundName_": "footstep_dash"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -935,10 +916,26 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 26
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 31
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 39
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -967,6 +964,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 23
       },
       {
@@ -979,14 +984,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 35
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
+        "index_": 2
       }
     ],
     "dodge_right": [
@@ -1012,6 +1014,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 11
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 23
       },
       {
@@ -1024,14 +1034,19 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 32
+        "frame_": 33
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 3
       },
       {
-        "@class": "tll::actor::command::FrameEnd"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 35
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       }
     ],
     "dodge_air": [
@@ -1100,11 +1115,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 3
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 51
+        "index_": 44
       }
     ],
     "guard_end": [
@@ -1115,9 +1130,6 @@
       {
         "@class": "command::Nall",
         "isEnable_": false
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
       }
     ],
     "guard_impact": [
@@ -1132,6 +1144,10 @@
       {
         "@class": "command::SeOneShot",
         "index_": 54
+      },
+      {
+        "@class": "command::ControllerVibration",
+        "name_": "damage_SS"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1172,44 +1188,44 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 21
+        "frame_": 20
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 31
+        "frame_": 30
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 33
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 61
+        "frame_": 48
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "down_S"
       },
       {
         "@class": "command::SeOneShot",
         "index_": 72
       },
       {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "down_M"
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 78
+        "frame_": 71
       },
       {
         "@class": "command::SeOneShot",
@@ -1217,7 +1233,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 99
+        "frame_": 89
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1247,6 +1267,13 @@
         "name_": "damage_L"
       },
       {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "damage_l"
+      },
+      {
         "@class": "command::IK",
         "node_": "IK_R_LEG",
         "isEnable_": false
@@ -1255,13 +1282,6 @@
         "@class": "command::IK",
         "node_": "IK_L_LEG",
         "isEnable_": false
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "damage_l"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1298,11 +1318,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 13
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 16
       },
       {
         "@class": "command::EffectMat",
@@ -1330,12 +1350,12 @@
         "isEnable_": true
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "damage_l"
-      },
-      {
         "@class": "command::ControllerVibration",
         "name_": "damage_L"
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "damage_l"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -1474,43 +1494,57 @@
     "damage_sp_fire_loop": [
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 1
+        "frame_": 10
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 14
+        "frame_": 24
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 16
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 36
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 44
+        "frame_": 48
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 61
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 74
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
       }
     ],
     "damage_sp_makibisi": [
       {
         "@class": "tll::actor::command::Anm",
-        "animeName_": "507",
-        "frame_": 0,
-        "subFuncName_": "damage_sp_makibisi_loop"
+        "animeName_": "507"
       },
       {
         "@class": "command::Combo"
@@ -1533,17 +1567,39 @@
         "name_": "damage_s"
       },
       {
-        "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "damage_sp_makibisi_loop": [
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
+        "frame_": 16
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 59
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
+      },
+      {
+        "@class": "tll::actor::command::FrameEnd"
       }
     ],
     "down_faceup": [
@@ -1565,7 +1621,7 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "soundName_": "down_S"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1577,7 +1633,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 5
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 28
       },
       {
         "@class": "command::SeOneShot",
@@ -1585,7 +1649,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 42
+        "frame_": 44
       },
       {
         "@class": "command::SeOneShot",
@@ -1597,6 +1661,10 @@
       {
         "@class": "tll::actor::command::Anm",
         "animeName_": "111"
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       }
     ],
     "down_facedown": [
@@ -1618,7 +1686,7 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "soundName_": "down_S"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1630,7 +1698,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 26
+        "frame_": 5
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
       },
       {
         "@class": "command::SeOneShot",
@@ -1638,7 +1714,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 49
       },
       {
         "@class": "command::SeOneShot",
@@ -1650,6 +1726,10 @@
       {
         "@class": "tll::actor::command::Anm",
         "animeName_": "112"
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       }
     ],
     "bound_faceup": [
@@ -1675,7 +1755,7 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "soundName_": "down_S"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1706,13 +1786,12 @@
         "animeName_": "110"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 2
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
       },
       {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 2
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -1722,8 +1801,13 @@
         "index_": 144
       },
       {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "down_S"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 25
+        "frame_": 28
       },
       {
         "@class": "command::SeOneShot",
@@ -1731,11 +1815,19 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 45
       },
       {
         "@class": "command::SeOneShot",
         "index_": 71
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       }
     ],
     "bound_facedown": [
@@ -1761,7 +1853,7 @@
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "soundName_": "down_S"
       },
       {
         "@class": "command::ControllerVibration",
@@ -1792,13 +1884,12 @@
         "animeName_": "109"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 2
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
       },
       {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "down_M"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 2
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -1808,8 +1899,13 @@
         "index_": 144
       },
       {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "down_S"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 28
       },
       {
         "@class": "command::SeOneShot",
@@ -1817,11 +1913,19 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 47
       },
       {
         "@class": "command::SeOneShot",
         "index_": 71
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       }
     ],
     "getup_faceup": [
@@ -1845,13 +1949,16 @@
         "frame_": 3
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.89,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 10
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -1863,11 +1970,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 36
+        "frame_": 39
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1894,21 +2001,16 @@
         "frame_": 10
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.85,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 16
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -1917,6 +2019,14 @@
       {
         "@class": "command::Pressure",
         "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 38
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -1943,29 +2053,16 @@
         "frame_": 5
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.85,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 16
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 20
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 17
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -1978,6 +2075,14 @@
       {
         "@class": "command::Pressure",
         "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 32
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2004,29 +2109,16 @@
         "frame_": 4
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.85,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "frame_": 12
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 17
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2034,7 +2126,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2067,19 +2159,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 61
+        "frame_": 29
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 125
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 71
       },
       {
         "@class": "command::EffectMat",
@@ -2088,14 +2172,18 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 126
+        "frame_": 51
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 72
+        "index_": 73
       },
       {
         "@class": "tll::actor::command::FrameEnd"
+      },
+      {
+        "@class": "command::ControllerVibration",
+        "name_": "dead"
       }
     ],
     "attackA": [
@@ -2105,12 +2193,12 @@
         "frame_": 0
       },
       {
-        "@class": "command::ActionSt",
-        "canCombo_": true
-      },
-      {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP1"
+      },
+      {
+        "@class": "command::ActionSt",
+        "canCombo_": true
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2133,10 +2221,6 @@
         "frame_": 6
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
         "@class": "command::Hit",
         "hitName_": "hitA"
       },
@@ -2152,16 +2236,15 @@
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 3
+        "wpFlag_": "WF_WEP1",
+        "frame_": 1
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 19
+        "frame_": 24
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2196,12 +2279,12 @@
         "frame_": 0
       },
       {
-        "@class": "command::ActionSt",
-        "canCombo_": true
-      },
-      {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP1"
+      },
+      {
+        "@class": "command::ActionSt",
+        "canCombo_": true
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2224,10 +2307,6 @@
         "frame_": 6
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
         "@class": "command::Hit",
         "hitName_": "hitA"
       },
@@ -2243,16 +2322,15 @@
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 3
+        "wpFlag_": "WF_WEP1",
+        "frame_": 1
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 19
+        "frame_": 24
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2265,16 +2343,16 @@
         "frame_": 0
       },
       {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
+      },
+      {
         "@class": "command::ActionSt",
         "canCombo_": true
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 6
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -2282,7 +2360,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 6
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
@@ -2293,24 +2371,23 @@
         "hitName_": "hitAA"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 7
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 1
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "frame_": 14
       },
       {
         "@class": "command::HitEnd"
       },
       {
-        "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 4
+        "@class": "tll::actor::command::Frame",
+        "frame_": 32
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2324,11 +2401,21 @@
       },
       {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP4"
+        "wpFlag_": "WF_WEP3"
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "frame_": 8
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -2336,23 +2423,141 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
+        "frame_": 9
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 245
+        "@class": "command::EffectMat",
+        "effectName_": "jump",
+        "soundName_": "footstep"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "frame_": 12
       },
       {
         "@class": "command::SeOneShot",
         "index_": 84
       },
       {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 13
+      },
+      {
         "@class": "command::Hit",
         "hitName_": "hitAAA"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 17
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP3",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 36
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 37
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 39
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 43
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::FrameEnd"
+      }
+    ],
+    "attackB": [
+      {
+        "@class": "tll::actor::command::Anm",
+        "animeName_": "205",
+        "frame_": 0
+      },
+      {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 7
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 206
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 17
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 17
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 18
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitB"
+      },
+      {
+        "@class": "command::CheckItem"
+      },
+      {
+        "@class": "command::Effect",
+        "type_": "EF_CHARA",
+        "id_": 73,
+        "boneName_": "LeftToeBase"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2363,152 +2568,18 @@
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 34
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump",
-        "soundName_": "footstep"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 50
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 55
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "attackB": [
-      {
-        "@class": "tll::actor::command::Anm",
-        "animeName_": "205",
-        "frame_": 0,
-        "subFuncName_": "attackB_loop"
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon02",
-        "isVisible_": true
-      },
-      {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP1"
-      },
-      {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 6
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "charge"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 13
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 16
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitB"
-      },
-      {
-        "@class": "command::CheckItem"
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 25
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 15
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 27
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 44
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 45
+        "frame_": 38
       },
       {
         "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "attackB_loop": [
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 20
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 24
-      },
-      {
-        "@class": "command::LoopAttack",
-        "frame_": 17
       }
     ],
     "attackAB": [
@@ -2522,53 +2593,12 @@
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
-      },
-      {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 12
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 13
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitAB"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 14
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 16
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 204
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 18
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 203
+        "name_": "attack_l"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2576,31 +2606,56 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 207
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 23
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 24
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitAB"
+      },
+      {
+        "@class": "command::Effect",
+        "type_": "EF_CHARA",
+        "id_": 73,
+        "boneName_": "RightToeBase"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 40
+        "frame_": 46
       },
       {
         "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 48
+        "frame_": 49
       },
       {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": true
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2613,25 +2668,22 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 5
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP3"
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 244
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 6
-      },
-      {
-        "@class": "command::Air",
-        "isEnable_": true,
-        "isForceAir_": true
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 8
+        "frame_": 14
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -2639,15 +2691,20 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 17
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 82
+        "@class": "command::SeDetailOneShot",
+        "index_": 84,
+        "pitch_": 1.32,
+        "lpfFreq_": 0,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 20
       },
       {
         "@class": "command::Hit",
@@ -2655,46 +2712,52 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 21
+        "frame_": 24
       },
       {
         "@class": "command::HitEnd"
       },
       {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP3",
+        "frame_": 15
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 41
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "footstep"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 35
-      },
-      {
-        "@class": "command::Air",
-        "isEnable_": false
+        "index_": 17
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 42
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 48
+        "frame_": 46
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 55
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2707,30 +2770,16 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 7
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 245
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 8
+        "index_": 3
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -2738,28 +2787,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 14
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 49
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 34
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 46
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "footstep_landing"
+        "@class": "command::SeOneShot",
+        "index_": 204
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 36
+        "frame_": 15
       },
       {
         "@class": "command::Hit",
@@ -2767,50 +2803,30 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
+        "frame_": 18
       },
       {
         "@class": "command::HitEnd"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 72
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 83
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 102
+        "frame_": 38
       },
       {
         "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 103
+        "frame_": 42
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 104
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2845,30 +2861,16 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 7
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 245
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 8
+        "index_": 3
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -2876,28 +2878,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 14
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 49
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 34
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 46
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "footstep_landing"
+        "@class": "command::SeOneShot",
+        "index_": 204
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 36
+        "frame_": 15
       },
       {
         "@class": "command::Hit",
@@ -2905,50 +2894,30 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
+        "frame_": 18
       },
       {
         "@class": "command::HitEnd"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 72
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 83
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 102
+        "frame_": 38
       },
       {
         "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 103
+        "frame_": 42
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 104
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -2961,30 +2930,40 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon02",
-        "isVisible_": true
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "frame_": 7
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 8.5
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "command::Hit",
+        "hitName_": "hit98A"
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 204
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 16
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2992,83 +2971,31 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 206
+        "index_": 16
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 20
       },
       {
-        "@class": "command::Hit",
-        "hitName_": "hit98A01"
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 22
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 27
+        "frame_": 24
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 206
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 28
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hit98A02"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 51
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 52
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon02",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 53
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
+        "frame_": 40
       },
       {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 54
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 61
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -3082,15 +3009,25 @@
       },
       {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP1"
+        "wpFlag_": "WF_WEP3"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 6
+        "frame_": 4
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 42
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -3098,77 +3035,110 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 6
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 17
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "@class": "command::Air",
+        "isEnable_": true,
+        "isForceAir_": true
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "frame_": 8
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump",
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8.5
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hit7A01"
+        "hitName_": "hit7A"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 10
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 206
+        "index_": 85
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 31
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hit7A02"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 36
+        "frame_": 13
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP3",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
+        "frame_": 32
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 240
+        "@class": "command::Air",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 57
+        "frame_": 37
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "command::JungleDamage"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 38
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 41
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 51
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 58
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -3181,43 +3151,40 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": true
-      },
-      {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP5"
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 25
+        "frame_": 4
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 12
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "release"
+        "name_": "attack_l"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 27
+        "frame_": 14
       },
       {
-        "@class": "command::SeDetailOneShot",
-        "index_": 103,
-        "pitch_": 1.05,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::SeOneShot",
+        "index_": 42
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 19
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 205
       },
       {
         "@class": "command::Hit",
@@ -3225,90 +3192,53 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 20
+      },
+      {
+        "@class": "command::Effect",
+        "type_": "EF_CHARA",
+        "id_": 73,
+        "boneName_": "LeftToeBase"
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "",
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 27
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 37
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 103,
-        "pitch_": 1.1,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 44
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 103,
-        "pitch_": 1.18,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 53
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 67
+        "frame_": 34
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 16
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 68
+        "frame_": 45
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": false
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 91
+        "frame_": 47
       },
       {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 94
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 103
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -3321,121 +3251,89 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": true
+        "@class": "tll::actor::command::Frame",
+        "frame_": 9
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump",
+        "soundName_": "footstep"
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 243
-      },
-      {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP5"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 3
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "stepjump"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 11
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_l"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 13
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 103
+        "index_": 50
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 15
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "release"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 26
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 204
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 28
       },
       {
         "@class": "command::Hit",
         "hitName_": "hitS987A"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "@class": "command::Air",
+        "isEnable_": false
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 53
+        "@class": "command::SeOneShot",
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 19
+        "frame_": 31
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "command::JungleDamage"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 32
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 54
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 20
-      },
-      {
-        "@class": "command::CameraQuake",
-        "kind_": "QUAKE_200"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 48
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 58
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 72
-      },
-      {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "footstep"
+        "index_": 17
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 75
+        "frame_": 53
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -3452,56 +3350,19 @@
       },
       {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP1"
-      },
-      {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "wpFlag_": "WF_WEP3"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 3
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 5
+        "frame_": 14
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 245
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 204
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 16
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 203
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 21
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.08,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "frame_": 14.5
       },
       {
         "@class": "command::Hit",
@@ -3509,130 +3370,39 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 23
+        "frame_": 29
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 49
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 25
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.16,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::SeOneShot",
+        "index_": 199
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 31
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.24,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 36
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.32,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 41
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.39,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 46
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.43,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 51
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.47,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "frame_": 32
       },
       {
         "@class": "command::HitEnd"
       },
       {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 40
+      },
+      {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP3",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 203,
-        "pitch_": 1.49,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
+        "frame_": 45
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 199
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 78
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 80
+        "frame_": 46
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -3652,12 +3422,55 @@
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 11
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 100
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 18
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hit6B01"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 21
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 22
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -3665,66 +3478,46 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 36
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 206
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 204
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 17
+        "frame_": 38
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hit6B"
+        "hitName_": "hit6B02"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 52
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 20
+        "frame_": 41
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 42
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 46
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "frame_": 66
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 73
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -3763,12 +3556,55 @@
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 11
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 100
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 18
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hit6B01"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 21
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 22
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -3776,66 +3612,46 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 36
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 206
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 204
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 17
+        "frame_": 38
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hit6B"
+        "hitName_": "hit6B02"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 52
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 20
+        "frame_": 41
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP1",
         "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 42
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 46
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "frame_": 66
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 73
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -3849,23 +3665,45 @@
       },
       {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP1"
+        "wpFlag_": "WF_WEP3"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "THROUGH"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 9
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 11
       },
       {
         "@class": "command::Air",
         "isEnable_": true
-      },
-      {
-        "@class": "command::Dangle",
-        "isEnable_": false
       },
       {
         "@class": "command::EffectMat",
@@ -3874,163 +3712,85 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
+        "frame_": 13
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 245
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 19
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "charge"
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "frame_": 17
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hit98B01"
+        "hitName_": "hit98B"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 27
+        "frame_": 21
       },
       {
-        "@class": "command::Hit",
-        "hitName_": "hit98B02"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 32
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 38
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 46
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 206,
-        "pitch_": 0.89,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 50
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 56
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 206,
-        "pitch_": 1.16,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 61
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 206,
-        "pitch_": 1.08,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 68
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 206,
-        "pitch_": 1.12,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 83
-      },
-      {
-        "@class": "command::SeDetailOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 91
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "@class": "command::Pressure",
+        "kind_": "NORMAL"
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP3",
         "frame_": 15
       },
       {
-        "@class": "tll::actor::command::FrameEnd"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 28
       },
       {
-        "@class": "tll::actor::command::Anm",
-        "animeName_": "011"
+        "@class": "command::Air",
+        "isEnable_": false
       },
       {
-        "@class": "command::Dangle",
-        "isEnable_": true
-      },
-      {
-        "@class": "command::NallSpeed",
-        "speedX_": 0,
-        "speedY_": -100
+        "@class": "command::SeOneShot",
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 29
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep"
+      },
+      {
+        "@class": "command::JungleDamage"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 31
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 33
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 39
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -4047,39 +3807,29 @@
       },
       {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP3"
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP4"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "stepjump"
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 6
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 245
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 15
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 3
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -4087,71 +3837,114 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 32
+        "frame_": 5
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump",
-        "soundName_": "footstep_dash"
+        "@class": "command::SeOneShot",
+        "index_": 204
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
+        "frame_": 7
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hit7B"
+        "hitName_": "hit7B02"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 8
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 13
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 16
+      },
+      {
+        "@class": "command::SeDetailOneShot",
+        "index_": 85,
+        "pitch_": 1.1,
+        "lpfFreq_": 0,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 18
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hit7B01"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 20
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
+        "wpFlag_": "WF_WEP4",
         "frame_": 15
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 44
+        "frame_": 33
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "command::JungleDamage"
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 52
+        "frame_": 34
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 60
+        "frame_": 45
       },
       {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 66
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4164,155 +3957,155 @@
         "frame_": 0
       },
       {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP3"
+      },
+      {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP4"
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 11
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 42
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
+      },
+      {
         "@class": "command::ExtraSeOneShot",
-        "index_": 44
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 16
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "release"
+        "@class": "command::SeDetailOneShot",
+        "index_": 85,
+        "pitch_": 1.15,
+        "lpfFreq_": -0.3,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 25
+        "frame_": 19
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hitS6B"
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 0.86,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "hitName_": "hitS6B01"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 34
+        "frame_": 22
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 0.94,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP3",
+        "frame_": 15
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_l"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 43
+        "frame_": 23
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
+        "@class": "command::SeOneShot",
+        "index_": 85
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 26
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitS6B02"
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 17
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "",
+        "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 27
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 28
+      },
+      {
+        "@class": "command::Effect",
+        "type_": "EF_CHARA",
+        "id_": 73,
+        "boneName_": "RightToeBase"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP4",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 33
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 37
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 52
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 1.04,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 61
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 1.08,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 68
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 70
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 78
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 79
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 49,
-        "pitch_": 1.2,
-        "lpfFreq_": -0.4,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 84
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 91
-      },
-      {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 93
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 241
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 97
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4347,155 +4140,155 @@
         "frame_": 0
       },
       {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP3"
+      },
+      {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP4"
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 11
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 42
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
+      },
+      {
         "@class": "command::ExtraSeOneShot",
-        "index_": 44
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
+        "frame_": 16
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "release"
+        "@class": "command::SeDetailOneShot",
+        "index_": 85,
+        "pitch_": 1.15,
+        "lpfFreq_": -0.3,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 25
+        "frame_": 19
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hitS6B"
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 0.86,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "hitName_": "hitS6B01"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 34
+        "frame_": 22
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 0.94,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP3",
+        "frame_": 15
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_l"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 43
+        "frame_": 23
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
+        "@class": "command::SeOneShot",
+        "index_": 85
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 26
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitS6B02"
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 17
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "",
+        "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 27
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 28
+      },
+      {
+        "@class": "command::Effect",
+        "type_": "EF_CHARA",
+        "id_": 73,
+        "boneName_": "RightToeBase"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP4",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 33
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 16
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 37
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": true
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 52
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 1.04,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 61
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 48,
-        "pitch_": 1.08,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 68
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 70
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 78
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 79
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 49,
-        "pitch_": 1.2,
-        "lpfFreq_": -0.4,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 84
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 91
-      },
-      {
         "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 93
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 241
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 97
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4508,37 +4301,45 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon02",
-        "isVisible_": true
-      },
-      {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "command::Pressure",
+        "kind_": "THROUGH"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 2
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 12
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 7
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 9
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::SeDetailOneShot",
+        "index_": 204,
+        "pitch_": 1.2,
+        "lpfFreq_": -0.3,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 9.5
       },
       {
         "@class": "command::Hit",
@@ -4546,28 +4347,18 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 20
+        "frame_": 12
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 1.2,
-        "lpfFreq_": -0.4,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 48
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 32
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "@class": "command::HitEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 33
+        "frame_": 26
       },
       {
         "@class": "command::Hit",
@@ -4575,73 +4366,139 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 43
+        "frame_": 27
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 1.2,
-        "lpfFreq_": -0.4,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 53
+        "frame_": 40
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 41
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": true,
+        "isForceAir_": true
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 42
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump",
+        "soundName_": "footstep_dash"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 51
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 52
       },
       {
         "@class": "command::HitEnd"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 77
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "release"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 82
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 49
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 85
       },
       {
         "@class": "command::Hit",
         "hitName_": "hitS987B03"
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 203
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 67
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 1.2,
-        "lpfFreq_": -0.4,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 91
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 15
+        "frame_": 88
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 39
+        "index_": 50
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 89.5
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 90
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "command::JungleDamage"
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 92
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon02",
-        "isVisible_": false
+        "@class": "command::HitEnd"
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 55
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 120
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 127
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4654,38 +4511,36 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": true
-      },
-      {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP5"
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
+        "frame_": 7
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "name_": "release"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 20
+        "frame_": 17
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 104
+        "index_": 204
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 21
+        "frame_": 18.5
       },
       {
         "@class": "command::Hit",
@@ -4693,7 +4548,20 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 21
+      },
+      {
+        "@class": "command::ExtraSeDetailOneShot",
+        "index_": 50,
+        "pitch_": 1,
+        "lpfFreq_": -0.3,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 25
       },
       {
         "@class": "command::HitEnd"
@@ -4701,14 +4569,22 @@
       {
         "@class": "command::EffBlurEnd",
         "wpFlag_": "WF_ALL",
-        "frame_": 10
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
+        "frame_": 48
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 56
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4721,20 +4597,12 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 23
-      },
-      {
         "@class": "command::RandomSeOneShot",
         "name_": "taunt"
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 24
+        "frame_": 25
       },
       {
         "@class": "command::ExtraSeOneShot",
@@ -4742,67 +4610,19 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
+        "frame_": 39
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 45
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 41
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 52
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 69
+        "frame_": 119
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 77
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 88
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 98
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 109
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 45
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -4815,78 +4635,82 @@
         "frame_": 0
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_l"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 2
-      },
-      {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 42
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 4
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 46
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 5
       },
       {
-        "@class": "command::CheckItem"
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 7
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 203
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 9
       },
       {
         "@class": "command::Hit",
         "hitName_": "hitDashAttack"
       },
       {
+        "@class": "command::CheckItem"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 27
+        "frame_": 6
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 30
       },
       {
         "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 37
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 43
       },
       {
-        "@class": "command::SeDetailOneShot",
-        "index_": 241,
-        "pitch_": 0.8,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "command::EffectMat",
-        "effectName_": "jump_end",
-        "soundName_": "footstep_landing"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 93
-      },
-      {
         "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 99
+        "frame_": 49
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
+        "index_": 2
       }
     ],
     "attackJAB": [
@@ -4896,175 +4720,133 @@
         "frame_": 0
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
         "@class": "command::Air",
         "isEnable_": true
       },
       {
         "@class": "command::Nall",
         "isEnable_": false
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 2
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 3
-      },
-      {
-        "@class": "command::CheckItem"
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitJump01"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 14
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 23
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
-      },
-      {
-        "@class": "tll::actor::command::Anm",
-        "animeName_": "011"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 10
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "attackJ8AB": [
-      {
-        "@class": "tll::actor::command::Anm",
-        "animeName_": "218",
-        "frame_": 0,
-        "subFuncName_": "attackj8AB_loop"
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon03",
-        "isVisible_": true
-      },
-      {
-        "@class": "command::Air",
-        "isEnable_": true
-      },
-      {
-        "@class": "command::Nall",
-        "isEnable_": false
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitJump02"
       },
       {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 3
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 204
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "name_": "attack_a"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitJump01"
+      },
+      {
+        "@class": "command::CheckItem"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 9
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
         "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "attackj8AB_loop": [
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 1
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "tll::actor::command::LerpFrame",
+        "lerpFrame_": 10
+      },
+      {
+        "@class": "tll::actor::command::Anm",
+        "animeName_": "011",
+        "frame_": 0
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 10
+      }
+    ],
+    "attackJ8AB": [
+      {
+        "@class": "tll::actor::command::Anm",
+        "animeName_": "218",
+        "frame_": 0
+      },
+      {
+        "@class": "command::Air",
+        "isEnable_": true
+      },
+      {
+        "@class": "command::Nall",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 4
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 9
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 206
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 11
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "command::Hit",
+        "hitName_": "hitJump02"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 21
+        "frame_": 15
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "command::Pressure",
+        "kind_": "NORMAL"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 31
+        "@class": "command::HitEnd"
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 41
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 51
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "@class": "tll::actor::command::FrameEnd"
       }
     ],
     "attackJ2AB": [
@@ -5078,22 +4860,12 @@
         "isEnable_": true
       },
       {
-        "@class": "command::JumpEndName",
-        "name_": "attackJ2AB_end"
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": true
-      },
-      {
         "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP5"
+        "wpFlag_": "WF_WEP1"
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "THROUGH"
       },
       {
         "@class": "command::Dangle",
@@ -5101,27 +4873,39 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 4
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "release"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 6
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 48
+        "index_": 45
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 11
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_l"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 17
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 206
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 20
       },
       {
         "@class": "command::Hit",
         "hitName_": "hitJump03"
+      },
+      {
+        "@class": "command::JumpEndName",
+        "name_": "attackJ2AB_end"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5138,13 +4922,12 @@
     "attackJ2AB_end": [
       {
         "@class": "tll::actor::command::Anm",
-        "animeName_": "232",
-        "frame_": 0
+        "animeName_": "232"
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
-        "soundName_": "footstep"
+        "soundName_": "footstep_landing"
       },
       {
         "@class": "command::CameraQuake",
@@ -5156,17 +4939,7 @@
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 53
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": true
+        "index_": 51
       },
       {
         "@class": "command::JungleDamage"
@@ -5176,25 +4949,32 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 3
+        "frame_": 2
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 36
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 47
+        "index_": 44
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 34
+        "frame_": 44
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon04",
-        "isVisible_": false
+        "@class": "command::SeDetailOneShot",
+        "index_": 203,
+        "pitch_": 1.2,
+        "lpfFreq_": -0.3,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -5209,7 +4989,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5223,6 +5003,10 @@
       {
         "@class": "command::Skill",
         "skillKind_": "SpFire"
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
       },
       {
         "@class": "command::Effect",
@@ -5246,10 +5030,6 @@
         "name_": "charge"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 22
       },
@@ -5262,10 +5042,6 @@
         "frame_": 24
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 238
-      },
-      {
         "@class": "command::Effect",
         "type_": "EF_CHARA",
         "id_": 51,
@@ -5275,7 +5051,7 @@
         "transZ_": 0,
         "rotX_": 35,
         "rotY_": 60,
-        "rotZ_": 90,
+        "rotZ_": 105,
         "coordKind_": "CONSTRAIN"
       },
       {
@@ -5311,6 +5087,10 @@
         "skillKind_": "SpQuake"
       },
       {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
         "@class": "command::SeOneShot",
         "index_": 146
       },
@@ -5319,45 +5099,44 @@
         "name_": "charge"
       },
       {
-        "@class": "command::SeLoop",
+        "@class": "command::SeOneShot",
         "index_": 181
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
+        "@class": "tll::actor::command::Frame",
+        "frame_": 11
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 20
       },
       {
-        "@class": "command::Air",
-        "isEnable_": true,
-        "isForceAir_": true
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 29
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 243
+        "index_": 158
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 24
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 34
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 47
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 53
+        "frame_": 51
       },
       {
         "@class": "command::Effect",
@@ -5371,10 +5150,6 @@
       {
         "@class": "command::Hit",
         "hitName_": "hitSpQuake_air"
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 158
       },
       {
         "@class": "command::CameraQuake",
@@ -5391,7 +5166,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
+        "frame_": 54
       },
       {
         "@class": "command::HitEnd"
@@ -5404,18 +5179,6 @@
         "@class": "command::EffectMat",
         "effectName_": "",
         "soundName_": "down_L"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 93
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "command::Air",
-        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5432,11 +5195,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
+        "frame_": 6
       },
       {
         "@class": "command::Skill",
@@ -5447,6 +5206,10 @@
         "transZ_": 0,
         "speedX_": 300,
         "speedY_": 0
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5463,11 +5226,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 12
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "frame_": 6
       },
       {
         "@class": "command::Skill",
@@ -5480,8 +5239,12 @@
         "speedY_": 300
       },
       {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 9
       },
       {
         "@class": "command::Skill",
@@ -5495,7 +5258,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 18
+        "frame_": 12
       },
       {
         "@class": "command::Skill",
@@ -5506,6 +5269,10 @@
         "transZ_": 0,
         "speedX_": 300,
         "speedY_": 0
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5522,21 +5289,21 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 17
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "frame_": 16
       },
       {
         "@class": "command::Skill",
         "skillKind_": "SpKanshaku",
-        "boneName_": "RightWeapon",
+        "boneName_": "PCON",
         "transX_": 0,
         "transY_": 0,
         "transZ_": 0,
         "speedX_": 100,
         "speedY_": 0
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5553,21 +5320,21 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 17
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
+        "frame_": 16
       },
       {
         "@class": "command::Skill",
         "skillKind_": "SpMakibisi",
-        "boneName_": "RightWeapon",
+        "boneName_": "PCON",
         "transX_": 0,
         "transY_": 0,
         "transZ_": 0,
         "speedX_": 100,
         "speedY_": 0
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5612,11 +5379,10 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 58
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5683,36 +5449,13 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 16
+        "frame_": 58
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
-      }
-    ],
-    "grabbed": [
-      {
-        "@class": "tll::actor::command::Anm",
-        "animeName_": "301"
-      },
-      {
-        "@class": "command::ControllerVibration",
-        "name_": "damage_S"
-      },
-      {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
-      },
-      {
-        "@class": "command::DamagePose",
-        "direction_": "FACEDOWN"
-      },
-      {
-        "@class": "tll::actor::command::Endless"
       }
     ],
     "throw_normal": [
@@ -5725,10 +5468,6 @@
         "kind_": "IGNORE"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::Hit",
         "hitName_": "hitThrowStart"
       },
@@ -5738,16 +5477,46 @@
         "isRotEnable_": true
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 8
-      },
-      {
         "@class": "command::Armor",
-        "kind_": "NORMAL"
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_R_LEG",
+        "isEnable_": false
+      },
+      {
+        "@class": "command::IK",
+        "node_": "IK_L_LEG",
+        "isEnable_": false
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 15
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 17
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 50
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 59
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 42
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 61
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -5755,180 +5524,50 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 44
+        "frame_": 73
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 206
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 46
+        "frame_": 75
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hitThrowNormal01_L"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 50
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 52
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 53
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowNormal01_R"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 76
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
+        "hitName_": "hitThrowNormal01"
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 79
       },
       {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowNormal01_R"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 87
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 88
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_s"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 89
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowNormal01_L"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 108
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 206
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 110
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowNormal01_L"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 113
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 116
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 173
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 176
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 180
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowNormal02"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 181
-      },
-      {
         "@class": "command::ThrowRelease"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 192
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 200
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
+        "frame_": 90
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 204
+        "frame_": 119
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 126
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 211
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5944,10 +5583,6 @@
         "kind_": "IGNORE"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::Hit",
         "hitName_": "hitThrowStart"
       },
@@ -5957,9 +5592,20 @@
         "isRotEnable_": true
       },
       {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 3
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 14
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -5967,58 +5613,46 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 8
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
+        "frame_": 15
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 85
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 14
+        "frame_": 17
       },
       {
         "@class": "command::Hit",
         "hitName_": "hitThrowUp01"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 15
-      },
-      {
         "@class": "command::ThrowRelease"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 49
+        "frame_": 33
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 71
+        "frame_": 56
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 73
+        "frame_": 63
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6034,10 +5668,6 @@
         "kind_": "IGNORE"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::Hit",
         "hitName_": "hitThrowStart"
       },
@@ -6047,37 +5677,16 @@
         "isRotEnable_": true
       },
       {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
         "@class": "command::ThrowRelease",
         "releaseKind_": "PRESS"
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 6
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 244
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 8
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 19
+        "frame_": 13
       },
       {
         "@class": "command::RandomSeOneShot",
@@ -6085,33 +5694,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 25
+        "frame_": 15
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
+        "@class": "command::SeOneShot",
+        "index_": 84
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
-      },
-      {
-        "@class": "command::CameraQuake",
-        "kind_": "QUAKE_200"
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "m_toilet_cover",
-        "isVisible_": false
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "m_toilet_seat",
-        "isVisible_": false
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 49
+        "frame_": 18
       },
       {
         "@class": "command::Hit",
@@ -6123,44 +5714,15 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 59
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 67
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 85
+        "index_": 82
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_l"
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 90
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 203
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 92
+        "frame_": 61
       },
       {
         "@class": "command::Hit",
@@ -6168,29 +5730,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 93
+        "frame_": 91
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "m_toilet_cover",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "m_toilet_seat",
-        "isVisible_": true
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 140
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 50
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 156
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6202,17 +5746,8 @@
         "animeName_": "404"
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
         "@class": "command::Pressure",
         "kind_": "IGNORE"
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
       },
       {
         "@class": "command::Hit",
@@ -6224,41 +5759,32 @@
         "isRotEnable_": true
       },
       {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
         "@class": "command::Air",
-        "isEnable_": true,
-        "isForceAir_": true
-      },
-      {
-        "@class": "command::ThrowRelease"
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 4
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_l"
+        "isEnable_": true
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 10
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.89,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_s"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 13
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 81
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 14
       },
       {
         "@class": "command::Hit",
@@ -6278,44 +5804,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 35
+        "frame_": 38
       },
       {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.83,
-        "lpfFreq_": 0,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 39
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitThrowTagOut01"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 65
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "release"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 69
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 48
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 75
+        "@class": "command::SeOneShot",
+        "index_": 81
       },
       {
         "@class": "command::Hit",
@@ -6323,22 +5816,74 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 89
+        "frame_": 50
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 238
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 100
+        "frame_": 51
       },
       {
         "@class": "command::CameraSubjectEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 135
+        "frame_": 56
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 65
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_l"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 72
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 84
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitThrowTagOut03"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 73
+      },
+      {
+        "@class": "command::ThrowRelease",
+        "releaseKind_": "RELEASE"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 89
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 94
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 133
       },
       {
         "@class": "command::SeOneShot",
@@ -6371,7 +5916,7 @@
       },
       {
         "@class": "command::Pressure",
-        "kind_": "IGNORE"
+        "kind_": "THROUGH"
       },
       {
         "@class": "command::Armor",
@@ -6384,32 +5929,42 @@
       },
       {
         "@class": "command::Air",
-        "isEnable_": true,
-        "isForceAir_": true
-      },
-      {
-        "@class": "command::Pressure",
-        "kind_": "THROUGH"
+        "isEnable_": true
       },
       {
         "@class": "command::SeOneShot",
         "index_": 214
       },
       {
-        "@class": "command::RandomSeOneShot",
-        "name_": "charge"
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 26
+        "frame_": 24
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 204
+        "index_": 50
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 35
+      },
+      {
+        "@class": "command::ThrowRelease"
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 40
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 84
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 43
       },
       {
         "@class": "command::Hit",
@@ -6417,33 +5972,38 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 31
-      },
-      {
-        "@class": "command::ThrowRelease"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 38
+        "frame_": 55
       },
       {
         "@class": "command::ThrowTagInEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 61
+        "frame_": 63
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 245
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 14
+        "index_": 50
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 70
+      },
+      {
+        "@class": "command::RandomSeOneShot",
+        "name_": "release"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 79
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 49
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 89
       },
       {
         "@class": "command::Hit",
@@ -6451,15 +6011,19 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 119
+        "frame_": 108
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 42
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 121
+        "frame_": 128
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 33
       },
       {
         "@class": "command::Air",
@@ -6497,15 +6061,15 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 4
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6547,15 +6111,15 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 4
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6599,24 +6163,20 @@
         "isEnable_": false
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 241
-      },
-      {
         "@class": "tll::actor::command::Frame",
         "frame_": 9
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 16
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 19
+        "frame_": 20
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 240
+        "index_": 17
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -6633,15 +6193,15 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 4
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6693,7 +6253,9 @@
       },
       {
         "@class": "tll::actor::command::Anm",
-        "animeName_": "201"
+        "animeName_": "201",
+        "frame_": 0,
+        "subFuncName_": "wall_attack_loop"
       },
       {
         "@class": "command::NallSpeed",
@@ -6705,8 +6267,8 @@
         "hitName_": "hitWallAttack"
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 83
+        "@class": "command::EffBlur",
+        "wpFlag_": "WF_WEP1"
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -6720,8 +6282,36 @@
       },
       {
         "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_WEP2",
+        "wpFlag_": "WF_WEP1",
         "frame_": 1
+      }
+    ],
+    "wall_attack_loop": [
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 1
+      },
+      {
+        "@class": "command::SeDetailOneShot",
+        "index_": 203,
+        "pitch_": 1,
+        "lpfFreq_": -0.4,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 8
+      },
+      {
+        "@class": "command::SeDetailOneShot",
+        "index_": 203,
+        "pitch_": 1,
+        "lpfFreq_": -0.4,
+        "reverb_": 1,
+        "delay_": 1,
+        "surroundpan_": 0
       }
     ],
     "wall_attack_end": [
@@ -6750,8 +6340,7 @@
     "wall_attack_end_floor": [
       {
         "@class": "tll::actor::command::Anm",
-        "animeName_": "018",
-        "frame_": 5
+        "animeName_": "018"
       },
       {
         "@class": "command::CameraQuake",
@@ -6759,7 +6348,7 @@
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 49
+        "index_": 47
       },
       {
         "@class": "command::EffectMat",
@@ -6768,32 +6357,24 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 9
+        "frame_": 3
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::ExtraSeOneShot",
+        "index_": 44
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 17
+        "frame_": 19
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 33
       },
       {
         "@class": "command::EffectMat",
         "effectName_": "dash_stop",
-        "soundName_": "footstep"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 21
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 246
+        "soundName_": "footstep_landing"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6811,10 +6392,6 @@
       {
         "@class": "command::Air",
         "isEnable_": true
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 242
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -6862,21 +6439,24 @@
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
       },
       {
-        "@class": "command::IK",
-        "node_": "IK_EAR",
-        "isEnable_": false
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "THROUGH"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 3
+        "frame_": 6
       },
       {
         "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "name_": "attack_s"
       },
       {
         "@class": "command::EffectMat",
@@ -6885,7 +6465,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 6
+        "frame_": 10
       },
       {
         "@class": "command::SeOneShot",
@@ -6893,11 +6473,42 @@
       },
       {
         "@class": "command::Hit",
-        "hitName_": "hitGetUpAttack"
+        "hitName_": "hitGetUpAttack01"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 13
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitGetUpAttack02"
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 16
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "command::Pressure",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 17
       },
       {
         "@class": "command::SeOneShot",
@@ -6905,23 +6516,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 20
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 15
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 26
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 17
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -6929,11 +6528,19 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 45
+        "frame_": 33
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -6957,7 +6564,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 2
+        "frame_": 3
       },
       {
         "@class": "command::SeOneShot",
@@ -6996,40 +6603,53 @@
         "kind_": "IGNORE"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::Air",
         "isEnable_": true
       },
       {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 9
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 32
+        "frame_": 18
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 239
+        "index_": 42
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 43
+        "frame_": 33
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 33
+      },
+      {
+        "@class": "command::EffectMat",
+        "effectName_": "jump_end",
+        "soundName_": "footstep"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 50
+        "frame_": 34
       },
       {
         "@class": "command::Air",
@@ -7037,7 +6657,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 51
+        "frame_": 40
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 46
       },
       {
         "@class": "command::Armor",
@@ -7045,6 +6673,22 @@
       },
       {
         "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 49
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 46
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 55
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -7060,123 +6704,64 @@
         "kind_": "IGNORE"
       },
       {
-        "@class": "command::Armor",
-        "kind_": "THROUGH"
-      },
-      {
         "@class": "command::Air",
         "isEnable_": true
       },
       {
+        "@class": "command::Armor",
+        "kind_": "THROUGH"
+      },
+      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 9
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 47
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 15
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 238
+        "index_": 2
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 24
+        "frame_": 18
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 241
+        "index_": 42
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 26
-      },
-      {
-        "@class": "command::RandomSeOneShot",
-        "name_": "attack_m"
+        "frame_": 20
       },
       {
         "@class": "command::EffBlur",
         "wpFlag_": "WF_WEP1"
       },
       {
-        "@class": "command::EffBlur",
-        "wpFlag_": "WF_WEP2"
-      },
-      {
         "@class": "tll::actor::command::Frame",
-        "frame_": 29
+        "frame_": 28
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 203
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 30
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitDangle01"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 32
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
+        "@class": "command::RandomSeOneShot",
+        "name_": "attack_m"
       },
       {
         "@class": "tll::actor::command::Frame",
         "frame_": 33
       },
       {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 38
-      },
-      {
         "@class": "command::SeOneShot",
-        "index_": 204
+        "index_": 33
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 40
-      },
-      {
-        "@class": "command::Hit",
-        "hitName_": "hitDangle02"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 43
-      },
-      {
-        "@class": "command::HitEnd"
-      },
-      {
-        "@class": "command::EffBlurEnd",
-        "wpFlag_": "WF_ALL",
-        "frame_": 15
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 46
-      },
-      {
-        "@class": "command::Armor",
-        "kind_": "NORMAL"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 65
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 68
+        "frame_": 36
       },
       {
         "@class": "command::Air",
@@ -7184,7 +6769,47 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 69
+        "frame_": 37
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 204
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 39
+      },
+      {
+        "@class": "command::Armor",
+        "kind_": "NORMAL"
+      },
+      {
+        "@class": "command::Hit",
+        "hitName_": "hitDangle"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 41
+      },
+      {
+        "@class": "command::HitEnd"
+      },
+      {
+        "@class": "command::EffBlurEnd",
+        "wpFlag_": "WF_WEP1",
+        "frame_": 15
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 79
+      },
+      {
+        "@class": "command::SeOneShot",
+        "index_": 3
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 81
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -7199,11 +6824,6 @@
         "animeName_": "700"
       },
       {
-        "@class": "tll::actor::command::Visible",
-        "boneName_": "Weapon01",
-        "isVisible_": false
-      },
-      {
         "@class": "command::Air",
         "isEnable_": true
       },
@@ -7213,79 +6833,15 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 44
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 34
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 37
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 54
+        "frame_": 14
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 242
+        "index_": 103
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 56
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 40
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 236
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 276
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 238
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 308
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 312
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 61
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 315
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 245
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 336
+        "frame_": 26
       },
       {
         "@class": "command::ExtraSeOneShot",
@@ -7293,11 +6849,37 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 338
+        "frame_": 38
       },
       {
-        "@class": "command::SeOneShot",
-        "index_": 242
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 50
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 45
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 61
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep01",
+        "isVisible_": false
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep03",
+        "isVisible_": true
+      },
+      {
+        "@class": "command::ExtraSeOneShot",
+        "index_": 44
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -7307,20 +6889,14 @@
         "animeName_": "703"
       },
       {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep01",
+        "isVisible_": false
       },
       {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 56
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 14
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 41
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep03",
+        "isVisible_": true
       },
       {
         "@class": "tll::actor::command::Endless"
@@ -7336,16 +6912,30 @@
         "isEnable_": true
       },
       {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep01",
+        "isVisible_": false
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep03",
+        "isVisible_": true
+      },
+      {
         "@class": "command::Pressure",
         "kind_": "THROUGH"
       },
       {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 10
+      },
+      {
         "@class": "command::ExtraSeOneShot",
         "index_": 47
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 15
+        "frame_": 35
       },
       {
         "@class": "command::ExtraSeOneShot",
@@ -7353,61 +6943,11 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 30
+        "frame_": 60
       },
       {
         "@class": "command::ExtraSeOneShot",
-        "index_": 42
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 41
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 239
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 62
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 47,
-        "pitch_": 0.7,
-        "lpfFreq_": -0.3,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 87
-      },
-      {
-        "@class": "command::SeOneShot",
-        "index_": 240
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 115
-      },
-      {
-        "@class": "command::ExtraSeDetailOneShot",
-        "index_": 45,
-        "pitch_": 0.86,
-        "lpfFreq_": -0.3,
-        "reverb_": 1,
-        "delay_": 1,
-        "surroundpan_": 0
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 118
-      },
-      {
-        "@class": "command::ExtraSeOneShot",
-        "index_": 43
+        "index_": 47
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -7415,6 +6955,16 @@
       {
         "@class": "tll::actor::command::Anm",
         "animeName_": "704"
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep01",
+        "isVisible_": false
+      },
+      {
+        "@class": "tll::actor::command::Visible",
+        "boneName_": "Wep03",
+        "isVisible_": true
       },
       {
         "@class": "tll::actor::command::Endless"
@@ -7452,7 +7002,7 @@
       },
       {
         "@class": "command::SeDetailOneShot",
-        "index_": 243,
+        "index_": 46,
         "pitch_": 1.2,
         "lpfFreq_": 0,
         "reverb_": 1,
@@ -7492,7 +7042,7 @@
       },
       {
         "@class": "command::SeOneShot",
-        "index_": 51
+        "index_": 50
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -7512,8 +7062,8 @@
         "@class": "command::Effect",
         "type_": "EF_CHARA",
         "id_": 11,
-        "boneName_": "RightWeapon1",
-        "transX_": 0,
+        "boneName_": "RightWeapon",
+        "transX_": 5,
         "transY_": 0,
         "transZ_": 2
       },
