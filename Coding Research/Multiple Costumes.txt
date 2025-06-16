@@ -1,3 +1,14 @@
 From: MarioDox
 address 900206FF, this is the value that holds when the Z button costume is supposed to be used, it's normally a byte either 0 or 1
 but the game simply does multiply this value by 20 therefore, if the value was let's say 2, it would load files in the 40 area.
+
+8036aad8 - function that checks if the character can be costumed
+9001a344 - start of table for character unlock (used above), by adding 0x18 to the offset (with specific id for the fighter) you get if the character has the costume unlocked
+the availability of the costumes are refreshed when the css is reloaded (so if you memory edit, you can't access the costumes until the css is reloaded)
+
+80d1e5c4 - start of table of FULL WORDS for each character and if they have a costume, this is the important table for show the Z button on the UI and also to make them pickable, this is loaded with the css and is used for other data as well. Gets written by following the output of the first function (8036aad8).
+
+802ba2ac - sets bit for enabling costume if the character has a costume and Z is held
+802ba294 - checks if character has costume for setting the bit, by looking at 80d1a4a0+(bit shifted character id)+0x4124
+
+802c1d60 - checks bit above was enabled upon select (runned every frame) for costume activation on loading
