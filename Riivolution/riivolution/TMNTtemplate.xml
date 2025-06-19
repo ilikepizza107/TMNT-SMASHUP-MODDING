@@ -19,6 +19,7 @@
 	<patch id="tmntfolder">
 		<folder external="/tmnt" recursive="false"/>
 		<folder external="/tmnt" disc="/"/>
+		<folder external="/tmnt/character/" disc="/character/" create="true" />
 	</patch>
 	<patch id="ocarinabase_axnextframe">
 		<memory ocarina="true" value="3800000E7FE3FB78B005000038800080" offset="0x800018A8"/>
