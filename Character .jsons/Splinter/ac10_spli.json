@@ -305,6 +305,9 @@
         "index_": 199
       },
       {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
         "@class": "command::EffectMat",
         "effectName_": "dash",
         "soundName_": "footstep_dash"
@@ -537,7 +540,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 5
+        "frame_": 3
       },
       {
         "@class": "tll::actor::command::Cancel"
@@ -580,6 +583,13 @@
       {
         "@class": "command::SeOneShot",
         "index_": 264
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 3
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
@@ -2635,18 +2645,18 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 22
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 55
       },
       {
         "@class": "command::SeOneShot",
         "index_": 9
-      },
-      {
-        "@class": "tll::actor::command::Frame",
-        "frame_": 56
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::FrameEnd"
@@ -5135,7 +5145,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 7
       },
       {
         "@class": "command::Hit",
@@ -5146,14 +5156,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 10
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 14
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
@@ -5161,7 +5171,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 58
+        "frame_": 31
       },
       {
         "@class": "tll::actor::command::Cancel"
