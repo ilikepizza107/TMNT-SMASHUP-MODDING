@@ -15,8 +15,13 @@ All Characters Unlocked [MarioDox]
 ###################################
 op b 0x18 @ $8036AAB4
 
+###################################
+All Stages Unlocked [MarioDox]
+###################################
+op b 0x18 @ $8036AB0C
+
 #######################################
-Every character has costumes [MarioDox]
+Every Character Has Costumes [MarioDox]
 #######################################
 op b 0x18 @ $8036AAE0
 
@@ -28,20 +33,20 @@ Extra Costume System Alpha v0.01 [MarioDox]
 op nop @ $802BA238 # disables costume bit being reset to 0 if Z is not held
 
 # costumes id now increases up to 0x2 per Z press
-# now uses proper button press than button hold (situated 0x4 after the input list)HOOK @ $802BA258
-op lwz r0,0x4(r7) @ $802ba254
+# now uses proper button press than button hold (situated 0x4 after the input list)
+op lwz r0, 0x4(r7) @ $802BA254
 
 HOOK @ $802BA2AC
 {
-    lbz r8,0x63C(r6)    # get costume id
-    cmpwi r8,0x2        # is it higher than 0x2?
-    addi r8,r8,0x1      # increment costume id by 1
-    mr r0,r8        	# can't do addi r0,r0, so we use r8
+    lbz r8, 0x63C(r6)    # get costume id
+    cmpwi r8, 0x2        # is it higher than 0x2?
+    addi r8, r8, 0x1      # increment costume id by 1
+    mr r0, r8        	# can't do addi r0,r0, so we use r8
     blt- end
 reset:
-    li r0,0x0        	# reset to 0
+    li r0, 0x0        	# reset to 0
 end:
-    stb r0,0x63C(r6)    # original op, sets costume id
+    stb r0, 0x63C(r6)    # original op, sets costume id
 }
 
-op lbz r3,0x11AC(r19) @ $802C1D80    # actually look at the id set, instead of forcing 0/1
+op lbz r3, 0x11AC(r19) @ $802C1D80    # actually look at the id set, instead of forcing 0/1
