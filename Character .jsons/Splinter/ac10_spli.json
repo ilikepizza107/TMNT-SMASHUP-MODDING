@@ -2850,6 +2850,13 @@
       },
       {
         "@class": "tll::actor::command::Frame",
+        "frame_": 32
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
+      },
+      {
+        "@class": "tll::actor::command::Frame",
         "frame_": 55
       },
       {
@@ -5391,6 +5398,13 @@
       {
         "@class": "command::SeOneShot",
         "index_": 9
+      },
+      {
+        "@class": "tll::actor::command::Frame",
+        "frame_": 42
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
