@@ -24,19 +24,19 @@
       }
     },
     "runnerParam_": {
-      "gravity_": -313.6,
+      "gravity_": -450.6,
       "walkSpeed_": 40,
       "runSpeed_": 90,
       "dashSpeed_": 140,
       "airResistTime_": 0.5,
-      "jumpSpeedX_": 82.5,
+      "jumpSpeedX_": 90.5,
       "jumpSpeedYLimit_": -200,
       "jumpSpeedY_": [
-        150,
-        150
+        130,
+        210
       ],
       "floorResistTime_": 0.05,
-      "descentSpeed_": -300,
+      "descentSpeed_": -400,
       "descentSpeedLimit_": -400
     },
     "climberParam_": {
@@ -201,7 +201,7 @@
           "freezeFrameAir_": 20,
           "kbKind_": "damage_stagger",
           "kbSpeed_": [
-            100,
+            75,
             0
           ],
           "kbAirSpeed_": [
@@ -1830,14 +1830,16 @@
             "attackA": {
               "attackAA": {
                 "attackAAA": {},
-                "attackAAB": {}
+                "attackAAB": {},
+                "grab": {}
               },
               "attackAB": {}
             },
             "attack_R_A": {
               "attackAA": {
                 "attackAAA": {},
-                "attackAAB": {}
+                "attackAAB": {},
+                "grab": {}
               },
               "attackAB": {}
             },
@@ -1876,7 +1878,8 @@
             "attackA": {
               "attackAA": {
                 "attackAAA": {},
-                "attackAAB": {}
+                "attackAAB": {},
+                "grab": {}
               },
               "attackAB": {}
             },
