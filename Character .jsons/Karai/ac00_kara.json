@@ -733,7 +733,7 @@
           "canGuard_": true,
           "freezeFrame_": -50,
           "freezeFrameGuard_": -55,
-          "freezeFrameAir_": 15,
+          "freezeFrameAir_": 150,
           "kbKind_": "damage_air",
           "kbSpeed_": [
             1,
