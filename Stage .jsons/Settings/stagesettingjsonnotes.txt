@@ -1,0 +1,7 @@
+These .jsons are all packaged in the JSON.PAC file, and are in the stageSetting.arc portion of that file
+
+byakko settings: Related to the white tiger item.
+"num": the number of claw marks that will appear on the stage.
+"scaleMin": the minimum size of the claw mark
+"scaleMax": the maximum size of the claw mark
+"pos": first number is x, second number is y. Possible locations on the stage that the claw marks could spawn. Randomly chosen by the array, and the number is affected by "num" 
