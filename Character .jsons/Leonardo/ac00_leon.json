@@ -636,13 +636,13 @@
           "freezeFrame_": -15,
           "freezeFrameGuard_": -21,
           "freezeFrameAir_": 35,
-          "kbKind_": "damage",
+          "kbKind_": "damage_air",
           "kbSpeed_": [
-            100,
-            0
+            -50,
+            75
           ],
           "kbAirSpeed_": [
-            0,
+            -50,
             50
           ],
           "boneName_": "LeftWeapon",
@@ -1980,14 +1980,16 @@
             "attack0": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
             "attack_R_A": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
@@ -2026,7 +2028,8 @@
             "attack0": {
               "attack1": {
                 "attack2": {},
-                "attackL3": {}
+                "attackL3": {},
+                "grab": {}
               },
               "attackL2": {}
             },
