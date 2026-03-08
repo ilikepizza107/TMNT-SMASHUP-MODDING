@@ -5942,13 +5942,6 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 42
-      },
-      {
-        "@class": "tll::actor::command::Cancel"
-      },
-      {
-        "@class": "tll::actor::command::Frame",
         "frame_": 50
       },
       {
@@ -5959,6 +5952,9 @@
         "@class": "command::EffectMat",
         "effectName_": "jump_end",
         "soundName_": "footstep_landing"
+      },
+      {
+        "@class": "tll::actor::command::Cancel"
       },
       {
         "@class": "tll::actor::command::Frame",
