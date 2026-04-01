@@ -7015,7 +7015,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 10
+        "frame_": 7
       },
       {
         "@class": "command::Hit",
@@ -7026,14 +7026,14 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 13
+        "frame_": 10
       },
       {
         "@class": "command::HitEnd"
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 14
+        "frame_": 11
       },
       {
         "@class": "command::SeOneShot",
@@ -7041,7 +7041,7 @@
       },
       {
         "@class": "tll::actor::command::Frame",
-        "frame_": 58
+        "frame_": 31
       },
       {
         "@class": "tll::actor::command::Cancel"
