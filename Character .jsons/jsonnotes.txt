@@ -76,6 +76,8 @@ command::EffectMat
 
 command::Armor - Sets when a character is invincible and when they are not. Pressure kind "THROUGH" means they're invincible, pressure kind "NORMAL" means they can be hit.
 
+command::ActionSt - Sets the action state? Only seen with second argument ("canCombo_": true) which must be on the attack if you want your combo tree to work. Not sure why it requires two seperate checks
+
 Common Json notes
 damageMaterials: Contains parameters for each damage material used 
 -sound: InfoIndex of what sound is played. These sounds can be found in the COMMON.PAC file

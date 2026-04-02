@@ -32,7 +32,7 @@
 		<memory offset="0x00001CE2" value="28B8"/>
 		<memory offset="0x00001F5A" value="8000"/>
 		<memory offset="0x00001F5E" value="28B8"/>
-		<memory valuefile="/codes/R2TE41.GCT" offset="0x800028B8"/>
+		<memory valuefile="/tmnt/codes/R2TE41.GCT" offset="0x800028B8"/>
 	</patch>
 <style id="autoconsent-prehide"/>
 </wiidisc>
