@@ -39,7 +39,7 @@
           "lot_": 0.2
         }
       ],
-      "anmClrAuto_": "ch_utro_00"
+      "anmClrAuto_": ["ch_utro_00", "ch_utro_01"]
     },
     "climberParam_": {
       "jumpSpeed_": [
